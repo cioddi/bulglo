@@ -1,0 +1,1374 @@
+[
+  {
+    "id": "hello",
+    "bg": "здравей",
+    "en": "hello",
+    "translit": "zdravey",
+    "tags": ["greetings", "basic"]
+  },
+  {
+    "id": "goodbye",
+    "bg": "довиждане",
+    "en": "goodbye",
+    "translit": "dovizhdane",
+    "tags": ["greetings", "basic"]
+  },
+  {
+    "id": "good-morning",
+    "bg": "добро утро",
+    "en": "good morning",
+    "translit": "dobro utro",
+    "tags": ["greetings"]
+  },
+  {
+    "id": "good-evening",
+    "bg": "добър вечер",
+    "en": "good evening", 
+    "translit": "dobar vecher",
+    "tags": ["greetings"]
+  },
+  {
+    "id": "good-night",
+    "bg": "лека нощ",
+    "en": "good night",
+    "translit": "leka nosht",
+    "tags": ["greetings"]
+  },
+  {
+    "id": "yes",
+    "bg": "да",
+    "en": "yes",
+    "translit": "da",
+    "tags": ["basic", "response"]
+  },
+  {
+    "id": "no",
+    "bg": "не",
+    "en": "no",
+    "translit": "ne",
+    "tags": ["basic", "response"]
+  },
+  {
+    "id": "thank-you",
+    "bg": "благодаря",
+    "en": "thank you",
+    "translit": "blagodarya",
+    "tags": ["politeness", "basic"]
+  },
+  {
+    "id": "please",
+    "bg": "моля",
+    "en": "please",
+    "translit": "molya",
+    "tags": ["politeness", "basic"]
+  },
+  {
+    "id": "excuse-me",
+    "bg": "извинете",
+    "en": "excuse me",
+    "translit": "izvinete",
+    "tags": ["politeness"]
+  },
+  {
+    "id": "sorry",
+    "bg": "съжалявам",
+    "en": "sorry",
+    "translit": "sazhalyavam",
+    "tags": ["politeness"]
+  },
+  {
+    "id": "how-are-you",
+    "bg": "как си",
+    "en": "how are you",
+    "translit": "kak si",
+    "tags": ["greetings", "questions"]
+  },
+  {
+    "id": "fine-thanks",
+    "bg": "добре, благодаря",
+    "en": "fine, thanks",
+    "translit": "dobre, blagodarya",
+    "tags": ["greetings", "responses"]
+  },
+  {
+    "id": "what-name",
+    "bg": "как се казваш",
+    "en": "what's your name",
+    "translit": "kak se kazvash",
+    "tags": ["introductions", "questions"]
+  },
+  {
+    "id": "my-name-is",
+    "bg": "казвам се",
+    "en": "my name is",
+    "translit": "kazvam se",
+    "tags": ["introductions"]
+  },
+  {
+    "id": "nice-to-meet",
+    "bg": "приятно ми е",
+    "en": "nice to meet you",
+    "translit": "priyatno mi e",
+    "tags": ["introductions"]
+  },
+  {
+    "id": "mother",
+    "bg": "майка",
+    "en": "mother",
+    "translit": "mayka",
+    "tags": ["family", "basic"]
+  },
+  {
+    "id": "father",
+    "bg": "баща",
+    "en": "father",
+    "translit": "bashta",
+    "tags": ["family", "basic"]
+  },
+  {
+    "id": "mom",
+    "bg": "мама",
+    "en": "mom",
+    "translit": "mama",
+    "tags": ["family"]
+  },
+  {
+    "id": "dad",
+    "bg": "татко",
+    "en": "dad",
+    "translit": "tatko",
+    "tags": ["family"]
+  },
+  {
+    "id": "brother",
+    "bg": "брат",
+    "en": "brother",
+    "translit": "brat",
+    "tags": ["family"]
+  },
+  {
+    "id": "sister",
+    "bg": "сестра",
+    "en": "sister",
+    "translit": "sestra",
+    "tags": ["family"]
+  },
+  {
+    "id": "son",
+    "bg": "син",
+    "en": "son",
+    "translit": "sin",
+    "tags": ["family"]
+  },
+  {
+    "id": "daughter",
+    "bg": "дъщеря",
+    "en": "daughter",
+    "translit": "dashterya",
+    "tags": ["family"]
+  },
+  {
+    "id": "grandmother",
+    "bg": "баба",
+    "en": "grandmother",
+    "translit": "baba",
+    "tags": ["family"]
+  },
+  {
+    "id": "grandfather",
+    "bg": "дядо",
+    "en": "grandfather",
+    "translit": "dyado",
+    "tags": ["family"]
+  },
+  {
+    "id": "aunt",
+    "bg": "леля",
+    "en": "aunt",
+    "translit": "lelya",
+    "tags": ["family"]
+  },
+  {
+    "id": "uncle",
+    "bg": "чичо",
+    "en": "uncle",
+    "translit": "chicho",
+    "tags": ["family"]
+  },
+  {
+    "id": "wife",
+    "bg": "съпруга",
+    "en": "wife",
+    "translit": "sapruga",
+    "tags": ["family"]
+  },
+  {
+    "id": "husband",
+    "bg": "съпруг",
+    "en": "husband",
+    "translit": "saprug",
+    "tags": ["family"]
+  },
+  {
+    "id": "friend",
+    "bg": "приятел",
+    "en": "friend",
+    "translit": "priyatel",
+    "tags": ["people", "relationships"]
+  },
+  {
+    "id": "man",
+    "bg": "мъж",
+    "en": "man",
+    "translit": "mazh",
+    "tags": ["people"]
+  },
+  {
+    "id": "woman",
+    "bg": "жена",
+    "en": "woman",
+    "translit": "zhena",
+    "tags": ["people"]
+  },
+  {
+    "id": "child",
+    "bg": "дете",
+    "en": "child",
+    "translit": "dete",
+    "tags": ["people", "family"]
+  },
+  {
+    "id": "boy",
+    "bg": "момче",
+    "en": "boy",
+    "translit": "momche",
+    "tags": ["people"]
+  },
+  {
+    "id": "girl",
+    "bg": "момиче",
+    "en": "girl",
+    "translit": "momiche",
+    "tags": ["people"]
+  },
+  {
+    "id": "one",
+    "bg": "едно",
+    "en": "one",
+    "translit": "edno",
+    "tags": ["numbers", "basic"]
+  },
+  {
+    "id": "two",
+    "bg": "две",
+    "en": "two",
+    "translit": "dve",
+    "tags": ["numbers", "basic"]
+  },
+  {
+    "id": "three",
+    "bg": "три",
+    "en": "three",
+    "translit": "tri",
+    "tags": ["numbers", "basic"]
+  },
+  {
+    "id": "four",
+    "bg": "четири",
+    "en": "four",
+    "translit": "chetiri",
+    "tags": ["numbers", "basic"]
+  },
+  {
+    "id": "five",
+    "bg": "пет",
+    "en": "five",
+    "translit": "pet",
+    "tags": ["numbers", "basic"]
+  },
+  {
+    "id": "six",
+    "bg": "шест",
+    "en": "six",
+    "translit": "shest",
+    "tags": ["numbers"]
+  },
+  {
+    "id": "seven",
+    "bg": "седем",
+    "en": "seven",
+    "translit": "sedem",
+    "tags": ["numbers"]
+  },
+  {
+    "id": "eight",
+    "bg": "осем",
+    "en": "eight",
+    "translit": "osem",
+    "tags": ["numbers"]
+  },
+  {
+    "id": "nine",
+    "bg": "девет",
+    "en": "nine",
+    "translit": "devet",
+    "tags": ["numbers"]
+  },
+  {
+    "id": "ten",
+    "bg": "десет",
+    "en": "ten",
+    "translit": "deset",
+    "tags": ["numbers"]
+  },
+  {
+    "id": "twenty",
+    "bg": "двадесет",
+    "en": "twenty",
+    "translit": "dvadeset",
+    "tags": ["numbers"]
+  },
+  {
+    "id": "hundred",
+    "bg": "сто",
+    "en": "hundred",
+    "translit": "sto",
+    "tags": ["numbers"]
+  },
+  {
+    "id": "hour",
+    "bg": "час",
+    "en": "hour",
+    "translit": "chas",
+    "tags": ["time"]
+  },
+  {
+    "id": "minute",
+    "bg": "минута",
+    "en": "minute",
+    "translit": "minuta",
+    "tags": ["time"]
+  },
+  {
+    "id": "today",
+    "bg": "днес",
+    "en": "today",
+    "translit": "dnes",
+    "tags": ["time"]
+  },
+  {
+    "id": "tomorrow",
+    "bg": "утре",
+    "en": "tomorrow",
+    "translit": "utre",
+    "tags": ["time"]
+  },
+  {
+    "id": "yesterday",
+    "bg": "вчера",
+    "en": "yesterday",
+    "translit": "vchera",
+    "tags": ["time"]
+  },
+  {
+    "id": "morning",
+    "bg": "сутрин",
+    "en": "morning",
+    "translit": "sutrin",
+    "tags": ["time"]
+  },
+  {
+    "id": "afternoon",
+    "bg": "следобед",
+    "en": "afternoon",
+    "translit": "sledobed",
+    "tags": ["time"]
+  },
+  {
+    "id": "evening",
+    "bg": "вечер",
+    "en": "evening",
+    "translit": "vecher",
+    "tags": ["time"]
+  },
+  {
+    "id": "night",
+    "bg": "нощ",
+    "en": "night",
+    "translit": "nosht",
+    "tags": ["time"]
+  },
+  {
+    "id": "water",
+    "bg": "вода",
+    "en": "water",
+    "translit": "voda",
+    "tags": ["food", "drinks", "basic"]
+  },
+  {
+    "id": "bread",
+    "bg": "хляб",
+    "en": "bread",
+    "translit": "hlyab",
+    "tags": ["food", "basic"]
+  },
+  {
+    "id": "milk",
+    "bg": "мляко",
+    "en": "milk",
+    "translit": "mlyako",
+    "tags": ["food", "drinks", "basic"]
+  },
+  {
+    "id": "coffee",
+    "bg": "кафе",
+    "en": "coffee",
+    "translit": "kafe",
+    "tags": ["drinks"]
+  },
+  {
+    "id": "tea",
+    "bg": "чай",
+    "en": "tea",
+    "translit": "chay",
+    "tags": ["drinks"]
+  },
+  {
+    "id": "beer",
+    "bg": "бира",
+    "en": "beer",
+    "translit": "bira",
+    "tags": ["drinks"]
+  },
+  {
+    "id": "wine",
+    "bg": "вино",
+    "en": "wine",
+    "translit": "vino",
+    "tags": ["drinks"]
+  },
+  {
+    "id": "juice",
+    "bg": "сок",
+    "en": "juice",
+    "translit": "sok",
+    "tags": ["drinks"]
+  },
+  {
+    "id": "meat",
+    "bg": "месо",
+    "en": "meat",
+    "translit": "meso",
+    "tags": ["food"]
+  },
+  {
+    "id": "chicken",
+    "bg": "пиле",
+    "en": "chicken",
+    "translit": "pile",
+    "tags": ["food"]
+  },
+  {
+    "id": "fish",
+    "bg": "риба",
+    "en": "fish",
+    "translit": "riba",
+    "tags": ["food"]
+  },
+  {
+    "id": "cheese",
+    "bg": "сирене",
+    "en": "cheese",
+    "translit": "sirene",
+    "tags": ["food"]
+  },
+  {
+    "id": "egg",
+    "bg": "яйце",
+    "en": "egg",
+    "translit": "yaytse",
+    "tags": ["food"]
+  },
+  {
+    "id": "vegetable",
+    "bg": "зеленчук",
+    "en": "vegetable",
+    "translit": "zelenchuk",
+    "tags": ["food"]
+  },
+  {
+    "id": "fruit",
+    "bg": "плод",
+    "en": "fruit",
+    "translit": "plod",
+    "tags": ["food"]
+  },
+  {
+    "id": "apple",
+    "bg": "ябълка",
+    "en": "apple",
+    "translit": "yabalka",
+    "tags": ["food", "fruits"]
+  },
+  {
+    "id": "banana",
+    "bg": "банан",
+    "en": "banana",
+    "translit": "banan",
+    "tags": ["food", "fruits"]
+  },
+  {
+    "id": "tomato",
+    "bg": "домат",
+    "en": "tomato",
+    "translit": "domat",
+    "tags": ["food", "vegetables"]
+  },
+  {
+    "id": "potato",
+    "bg": "картоф",
+    "en": "potato",
+    "translit": "kartof",
+    "tags": ["food", "vegetables"]
+  },
+  {
+    "id": "onion",
+    "bg": "лук",
+    "en": "onion",
+    "translit": "luk",
+    "tags": ["food", "vegetables"]
+  },
+  {
+    "id": "breakfast",
+    "bg": "закуска",
+    "en": "breakfast",
+    "translit": "zakuska",
+    "tags": ["meals"]
+  },
+  {
+    "id": "lunch",
+    "bg": "обяд",
+    "en": "lunch",
+    "translit": "obyad",
+    "tags": ["meals"]
+  },
+  {
+    "id": "dinner",
+    "bg": "вечеря",
+    "en": "dinner",
+    "translit": "vecherya",
+    "tags": ["meals"]
+  },
+  {
+    "id": "house",
+    "bg": "къща",
+    "en": "house",
+    "translit": "kashta",
+    "tags": ["home", "basic"]
+  },
+  {
+    "id": "apartment",
+    "bg": "апартамент",
+    "en": "apartment",
+    "translit": "apartament",
+    "tags": ["home"]
+  },
+  {
+    "id": "room",
+    "bg": "стая",
+    "en": "room",
+    "translit": "staya",
+    "tags": ["home"]
+  },
+  {
+    "id": "bedroom",
+    "bg": "спалня",
+    "en": "bedroom",
+    "translit": "spalnya",
+    "tags": ["home"]
+  },
+  {
+    "id": "kitchen",
+    "bg": "кухня",
+    "en": "kitchen",
+    "translit": "kuhnya",
+    "tags": ["home"]
+  },
+  {
+    "id": "bathroom",
+    "bg": "баня",
+    "en": "bathroom",
+    "translit": "banya",
+    "tags": ["home"]
+  },
+  {
+    "id": "living-room",
+    "bg": "хол",
+    "en": "living room",
+    "translit": "hol",
+    "tags": ["home"]
+  },
+  {
+    "id": "door",
+    "bg": "врата",
+    "en": "door",
+    "translit": "vrata",
+    "tags": ["home"]
+  },
+  {
+    "id": "window",
+    "bg": "прозорец",
+    "en": "window",
+    "translit": "prozorets",
+    "tags": ["home"]
+  },
+  {
+    "id": "table",
+    "bg": "маса",
+    "en": "table",
+    "translit": "masa",
+    "tags": ["furniture"]
+  },
+  {
+    "id": "chair",
+    "bg": "стол",
+    "en": "chair",
+    "translit": "stol",
+    "tags": ["furniture"]
+  },
+  {
+    "id": "bed",
+    "bg": "легло",
+    "en": "bed",
+    "translit": "leglo",
+    "tags": ["furniture"]
+  },
+  {
+    "id": "sofa",
+    "bg": "диван",
+    "en": "sofa",
+    "translit": "divan",
+    "tags": ["furniture"]
+  },
+  {
+    "id": "television",
+    "bg": "телевизор",
+    "en": "television",
+    "translit": "televizor",
+    "tags": ["home", "electronics"]
+  },
+  {
+    "id": "computer",
+    "bg": "компютър",
+    "en": "computer",
+    "translit": "kompyutar",
+    "tags": ["electronics", "work"]
+  },
+  {
+    "id": "phone",
+    "bg": "телефон",
+    "en": "phone",
+    "translit": "telefon",
+    "tags": ["electronics"]
+  },
+  {
+    "id": "book",
+    "bg": "книга",
+    "en": "book",
+    "translit": "kniga",
+    "tags": ["education", "hobbies"]
+  },
+  {
+    "id": "red",
+    "bg": "червен",
+    "en": "red",
+    "translit": "cherven",
+    "tags": ["colors"]
+  },
+  {
+    "id": "blue",
+    "bg": "син",
+    "en": "blue",
+    "translit": "sin",
+    "tags": ["colors"]
+  },
+  {
+    "id": "green",
+    "bg": "зелен",
+    "en": "green",
+    "translit": "zelen",
+    "tags": ["colors"]
+  },
+  {
+    "id": "yellow",
+    "bg": "жълт",
+    "en": "yellow",
+    "translit": "zhalt",
+    "tags": ["colors"]
+  },
+  {
+    "id": "black",
+    "bg": "черен",
+    "en": "black",
+    "translit": "cheren",
+    "tags": ["colors"]
+  },
+  {
+    "id": "white",
+    "bg": "бял",
+    "en": "white",
+    "translit": "byal",
+    "tags": ["colors"]
+  },
+  {
+    "id": "orange",
+    "bg": "оранжев",
+    "en": "orange",
+    "translit": "oranzhev",
+    "tags": ["colors"]
+  },
+  {
+    "id": "purple",
+    "bg": "лилав",
+    "en": "purple",
+    "translit": "lilav",
+    "tags": ["colors"]
+  },
+  {
+    "id": "shirt",
+    "bg": "риза",
+    "en": "shirt",
+    "translit": "riza",
+    "tags": ["clothes"]
+  },
+  {
+    "id": "pants",
+    "bg": "панталон",
+    "en": "pants",
+    "translit": "pantalon",
+    "tags": ["clothes"]
+  },
+  {
+    "id": "dress",
+    "bg": "рокля",
+    "en": "dress",
+    "translit": "roklya",
+    "tags": ["clothes"]
+  },
+  {
+    "id": "shoes",
+    "bg": "обувки",
+    "en": "shoes",
+    "translit": "obuvki",
+    "tags": ["clothes"]
+  },
+  {
+    "id": "jacket",
+    "bg": "яке",
+    "en": "jacket",
+    "translit": "yake",
+    "tags": ["clothes"]
+  },
+  {
+    "id": "hat",
+    "bg": "шапка",
+    "en": "hat",
+    "translit": "shapka",
+    "tags": ["clothes"]
+  },
+  {
+    "id": "car",
+    "bg": "кола",
+    "en": "car",
+    "translit": "kola",
+    "tags": ["transport"]
+  },
+  {
+    "id": "bus",
+    "bg": "автобус",
+    "en": "bus",
+    "translit": "avtobus",
+    "tags": ["transport"]
+  },
+  {
+    "id": "train",
+    "bg": "влак",
+    "en": "train",
+    "translit": "vlak",
+    "tags": ["transport"]
+  },
+  {
+    "id": "plane",
+    "bg": "самолет",
+    "en": "plane",
+    "translit": "samolet",
+    "tags": ["transport"]
+  },
+  {
+    "id": "bicycle",
+    "bg": "колело",
+    "en": "bicycle",
+    "translit": "kolelo",
+    "tags": ["transport"]
+  },
+  {
+    "id": "street",
+    "bg": "улица",
+    "en": "street",
+    "translit": "ulitsa",
+    "tags": ["city", "directions"]
+  },
+  {
+    "id": "shop",
+    "bg": "магазин",
+    "en": "shop",
+    "translit": "magazin",
+    "tags": ["shopping", "city"]
+  },
+  {
+    "id": "restaurant",
+    "bg": "ресторант",
+    "en": "restaurant",
+    "translit": "restorant",
+    "tags": ["food", "city"]
+  },
+  {
+    "id": "hotel",
+    "bg": "хотел",
+    "en": "hotel",
+    "translit": "hotel",
+    "tags": ["travel", "city"]
+  },
+  {
+    "id": "hospital",
+    "bg": "болница",
+    "en": "hospital",
+    "translit": "bolnitsa",
+    "tags": ["health", "city"]
+  },
+  {
+    "id": "school",
+    "bg": "училище",
+    "en": "school",
+    "translit": "uchilishte",
+    "tags": ["education"]
+  },
+  {
+    "id": "university",
+    "bg": "университет",
+    "en": "university",
+    "translit": "universitet",
+    "tags": ["education"]
+  },
+  {
+    "id": "work",
+    "bg": "работа",
+    "en": "work",
+    "translit": "rabota",
+    "tags": ["work"]
+  },
+  {
+    "id": "job",
+    "bg": "служба",
+    "en": "job",
+    "translit": "sluzhba",
+    "tags": ["work"]
+  },
+  {
+    "id": "doctor",
+    "bg": "лекар",
+    "en": "doctor",
+    "translit": "lekar",
+    "tags": ["professions", "health"]
+  },
+  {
+    "id": "teacher",
+    "bg": "учител",
+    "en": "teacher",
+    "translit": "uchitel",
+    "tags": ["professions", "education"]
+  },
+  {
+    "id": "student",
+    "bg": "студент",
+    "en": "student",
+    "translit": "student",
+    "tags": ["education"]
+  },
+  {
+    "id": "engineer",
+    "bg": "инженер",
+    "en": "engineer",
+    "translit": "inzhener",
+    "tags": ["professions"]
+  },
+  {
+    "id": "lawyer",
+    "bg": "адвокат",
+    "en": "lawyer",
+    "translit": "advokat",
+    "tags": ["professions"]
+  },
+  {
+    "id": "police",
+    "bg": "полицай",
+    "en": "police officer",
+    "translit": "politsay",
+    "tags": ["professions"]
+  },
+  {
+    "id": "head",
+    "bg": "глава",
+    "en": "head",
+    "translit": "glava",
+    "tags": ["body"]
+  },
+  {
+    "id": "eye",
+    "bg": "око",
+    "en": "eye",
+    "translit": "oko",
+    "tags": ["body"]
+  },
+  {
+    "id": "nose",
+    "bg": "нос",
+    "en": "nose",
+    "translit": "nos",
+    "tags": ["body"]
+  },
+  {
+    "id": "mouth",
+    "bg": "уста",
+    "en": "mouth",
+    "translit": "usta",
+    "tags": ["body"]
+  },
+  {
+    "id": "hand",
+    "bg": "ръка",
+    "en": "hand",
+    "translit": "raka",
+    "tags": ["body"]
+  },
+  {
+    "id": "foot",
+    "bg": "крак",
+    "en": "foot",
+    "translit": "krak",
+    "tags": ["body"]
+  },
+  {
+    "id": "good",
+    "bg": "добро",
+    "en": "good",
+    "translit": "dobro",
+    "tags": ["adjectives", "basic"]
+  },
+  {
+    "id": "bad",
+    "bg": "лошо",
+    "en": "bad",
+    "translit": "losho",
+    "tags": ["adjectives", "basic"]
+  },
+  {
+    "id": "big",
+    "bg": "голямо",
+    "en": "big",
+    "translit": "golyamo",
+    "tags": ["adjectives", "basic"]
+  },
+  {
+    "id": "small",
+    "bg": "малко",
+    "en": "small",
+    "translit": "malko",
+    "tags": ["adjectives"]
+  },
+  {
+    "id": "hot",
+    "bg": "горещо",
+    "en": "hot",
+    "translit": "goreshto",
+    "tags": ["adjectives", "weather"]
+  },
+  {
+    "id": "cold",
+    "bg": "студено",
+    "en": "cold",
+    "translit": "studeno",
+    "tags": ["adjectives", "weather"]
+  },
+  {
+    "id": "beautiful",
+    "bg": "красиво",
+    "en": "beautiful",
+    "translit": "krasivo",
+    "tags": ["adjectives"]
+  },
+  {
+    "id": "ugly",
+    "bg": "грозно",
+    "en": "ugly",
+    "translit": "grozno",
+    "tags": ["adjectives"]
+  },
+  {
+    "id": "happy",
+    "bg": "щастлив",
+    "en": "happy",
+    "translit": "shtastliv",
+    "tags": ["feelings", "adjectives"]
+  },
+  {
+    "id": "sad",
+    "bg": "тъжен",
+    "en": "sad",
+    "translit": "tazhen",
+    "tags": ["feelings", "adjectives"]
+  },
+  {
+    "id": "angry",
+    "bg": "ядосан",
+    "en": "angry",
+    "translit": "yadosan",
+    "tags": ["feelings", "adjectives"]
+  },
+  {
+    "id": "tired",
+    "bg": "уморен",
+    "en": "tired",
+    "translit": "umoren",
+    "tags": ["feelings", "adjectives"]
+  },
+  {
+    "id": "hungry",
+    "bg": "гладен",
+    "en": "hungry",
+    "translit": "gladen",
+    "tags": ["feelings", "adjectives"]
+  },
+  {
+    "id": "thirsty",
+    "bg": "жаден",
+    "en": "thirsty",
+    "translit": "zhaden",
+    "tags": ["feelings", "adjectives"]
+  },
+  {
+    "id": "weather",
+    "bg": "време",
+    "en": "weather",
+    "translit": "vreme",
+    "tags": ["weather"]
+  },
+  {
+    "id": "sun",
+    "bg": "слънце",
+    "en": "sun",
+    "translit": "slantse",
+    "tags": ["weather", "nature"]
+  },
+  {
+    "id": "rain",
+    "bg": "дъжд",
+    "en": "rain",
+    "translit": "dazhd",
+    "tags": ["weather"]
+  },
+  {
+    "id": "snow",
+    "bg": "сняг",
+    "en": "snow",
+    "translit": "snyag",
+    "tags": ["weather"]
+  },
+  {
+    "id": "wind",
+    "bg": "вятър",
+    "en": "wind",
+    "translit": "vyatar",
+    "tags": ["weather"]
+  },
+  {
+    "id": "spring",
+    "bg": "пролет",
+    "en": "spring",
+    "translit": "prolet",
+    "tags": ["seasons"]
+  },
+  {
+    "id": "summer",
+    "bg": "лято",
+    "en": "summer",
+    "translit": "lyato",
+    "tags": ["seasons"]
+  },
+  {
+    "id": "autumn",
+    "bg": "есен",
+    "en": "autumn",
+    "translit": "esen",
+    "tags": ["seasons"]
+  },
+  {
+    "id": "winter",
+    "bg": "зима",
+    "en": "winter",
+    "translit": "zima",
+    "tags": ["seasons"]
+  },
+  {
+    "id": "tree",
+    "bg": "дърво",
+    "en": "tree",
+    "translit": "darvo",
+    "tags": ["nature"]
+  },
+  {
+    "id": "flower",
+    "bg": "цвете",
+    "en": "flower",
+    "translit": "tsvete",
+    "tags": ["nature"]
+  },
+  {
+    "id": "mountain",
+    "bg": "планина",
+    "en": "mountain",
+    "translit": "planina",
+    "tags": ["nature"]
+  },
+  {
+    "id": "sea",
+    "bg": "море",
+    "en": "sea",
+    "translit": "more",
+    "tags": ["nature"]
+  },
+  {
+    "id": "river",
+    "bg": "река",
+    "en": "river",
+    "translit": "reka",
+    "tags": ["nature"]
+  },
+  {
+    "id": "dog",
+    "bg": "куче",
+    "en": "dog",
+    "translit": "kuche",
+    "tags": ["animals"]
+  },
+  {
+    "id": "cat",
+    "bg": "котка",
+    "en": "cat",
+    "translit": "kotka",
+    "tags": ["animals"]
+  },
+  {
+    "id": "bird",
+    "bg": "птица",
+    "en": "bird",
+    "translit": "ptitsa",
+    "tags": ["animals"]
+  },
+  {
+    "id": "horse",
+    "bg": "кон",
+    "en": "horse",
+    "translit": "kon",
+    "tags": ["animals"]
+  },
+  {
+    "id": "music",
+    "bg": "музика",
+    "en": "music",
+    "translit": "muzika",
+    "tags": ["hobbies", "entertainment"]
+  },
+  {
+    "id": "movie",
+    "bg": "филм",
+    "en": "movie",
+    "translit": "film",
+    "tags": ["entertainment"]
+  },
+  {
+    "id": "sport",
+    "bg": "спорт",
+    "en": "sport",
+    "translit": "sport",
+    "tags": ["sports"]
+  },
+  {
+    "id": "football",
+    "bg": "футбол",
+    "en": "football",
+    "translit": "futbol",
+    "tags": ["sports"]
+  },
+  {
+    "id": "tennis",
+    "bg": "тенис",
+    "en": "tennis",
+    "translit": "tenis",
+    "tags": ["sports"]
+  },
+  {
+    "id": "swimming",
+    "bg": "плуване",
+    "en": "swimming",
+    "translit": "pluvane",
+    "tags": ["sports"]
+  },
+  {
+    "id": "reading",
+    "bg": "четене",
+    "en": "reading",
+    "translit": "chetene",
+    "tags": ["hobbies"]
+  },
+  {
+    "id": "cooking",
+    "bg": "готвене",
+    "en": "cooking",
+    "translit": "gotvene",
+    "tags": ["hobbies"]
+  },
+  {
+    "id": "shopping",
+    "bg": "пазаруване",
+    "en": "shopping",
+    "translit": "pazaruvane",
+    "tags": ["activities"]
+  },
+  {
+    "id": "dancing",
+    "bg": "танцуване",
+    "en": "dancing",
+    "translit": "tantsuvane",
+    "tags": ["hobbies", "activities"]
+  },
+  {
+    "id": "what",
+    "bg": "какво",
+    "en": "what",
+    "translit": "kakvo",
+    "tags": ["questions"]
+  },
+  {
+    "id": "where",
+    "bg": "къде",
+    "en": "where",
+    "translit": "kade",
+    "tags": ["questions"]
+  },
+  {
+    "id": "when",
+    "bg": "кога",
+    "en": "when",
+    "translit": "koga",
+    "tags": ["questions"]
+  },
+  {
+    "id": "why",
+    "bg": "защо",
+    "en": "why",
+    "translit": "zashto",
+    "tags": ["questions"]
+  },
+  {
+    "id": "how",
+    "bg": "как",
+    "en": "how",
+    "translit": "kak",
+    "tags": ["questions"]
+  },
+  {
+    "id": "who",
+    "bg": "кой",
+    "en": "who",
+    "translit": "koy",
+    "tags": ["questions"]
+  },
+  {
+    "id": "do-you-speak",
+    "bg": "говорите ли",
+    "en": "do you speak",
+    "translit": "govorite li",
+    "tags": ["conversation", "questions"]
+  },
+  {
+    "id": "i-dont-understand",
+    "bg": "не разбирам",
+    "en": "I don't understand",
+    "translit": "ne razbiram",
+    "tags": ["conversation"]
+  },
+  {
+    "id": "speak-slowly",
+    "bg": "говорете бавно",
+    "en": "speak slowly",
+    "translit": "govorete bavno",
+    "tags": ["conversation"]
+  },
+  {
+    "id": "repeat-please",
+    "bg": "повторете, моля",
+    "en": "repeat, please",
+    "translit": "povtorete, molya",
+    "tags": ["conversation", "politeness"]
+  },
+  {
+    "id": "i-like",
+    "bg": "харесвам",
+    "en": "I like",
+    "translit": "kharesvam",
+    "tags": ["opinions"]
+  },
+  {
+    "id": "i-dont-like",
+    "bg": "не харесвам",
+    "en": "I don't like",
+    "translit": "ne kharesvam",
+    "tags": ["opinions"]
+  },
+  {
+    "id": "i-agree",
+    "bg": "съгласен съм",
+    "en": "I agree",
+    "translit": "saglasen sam",
+    "tags": ["opinions", "conversation"]
+  },
+  {
+    "id": "i-disagree",
+    "bg": "не съм съгласен",
+    "en": "I disagree",
+    "translit": "ne sam saglasen",
+    "tags": ["opinions", "conversation"]
+  },
+  {
+    "id": "maybe",
+    "bg": "може би",
+    "en": "maybe",
+    "translit": "mozhe bi",
+    "tags": ["opinions"]
+  },
+  {
+    "id": "of-course",
+    "bg": "разбира се",
+    "en": "of course",
+    "translit": "razbira se",
+    "tags": ["conversation"]
+  },
+  {
+    "id": "no-problem",
+    "bg": "няма проблем",
+    "en": "no problem",
+    "translit": "nyama problem",
+    "tags": ["conversation"]
+  }
+]

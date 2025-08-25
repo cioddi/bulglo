@@ -1,0 +1,98 @@
+[
+  {
+    "id": "alphabet-vowels",
+    "title": "Alphabet: Vowels",
+    "order": 1,
+    "lessons": ["vowels-1", "vowels-2", "vowels-3", "vowels-review"]
+  },
+  {
+    "id": "alphabet-consonants-1",
+    "title": "Alphabet: Basic Consonants",
+    "order": 2,
+    "lessons": ["consonants-1", "consonants-2", "consonants-3", "consonants-4"]
+  },
+  {
+    "id": "alphabet-consonants-2",
+    "title": "Alphabet: Tricky Consonants",
+    "order": 3,
+    "lessons": ["consonants-5", "consonants-6", "consonants-7", "consonants-review"]
+  },
+  {
+    "id": "alphabet-special",
+    "title": "Alphabet: Special Letters",
+    "order": 4,
+    "lessons": ["special-1", "special-2", "special-3", "alphabet-final"]
+  },
+  {
+    "id": "greetings",
+    "title": "Greetings & Politeness",
+    "order": 5,
+    "lessons": ["greetings-1", "greetings-2", "politeness-1", "introductions-1"]
+  },
+  {
+    "id": "family",
+    "title": "Family & People",
+    "order": 6,
+    "lessons": ["family-1", "family-2", "people-1", "relationships-1"]
+  },
+  {
+    "id": "numbers-time",
+    "title": "Numbers & Time",
+    "order": 7,
+    "lessons": ["numbers-1", "numbers-2", "time-1", "dates-1"]
+  },
+  {
+    "id": "food-drinks",
+    "title": "Food & Drinks",
+    "order": 8,
+    "lessons": ["food-1", "food-2", "drinks-1", "meals-1"]
+  },
+  {
+    "id": "home-living",
+    "title": "Home & Living",
+    "order": 9,
+    "lessons": ["home-1", "home-2", "furniture-1", "daily-routine-1"]
+  },
+  {
+    "id": "clothes-colors",
+    "title": "Clothes & Colors",
+    "order": 10,
+    "lessons": ["colors-1", "clothes-1", "clothes-2", "shopping-1"]
+  },
+  {
+    "id": "transport-travel",
+    "title": "Transport & Travel",
+    "order": 11,
+    "lessons": ["transport-1", "directions-1", "travel-1", "city-1"]
+  },
+  {
+    "id": "work-education",
+    "title": "Work & Education",
+    "order": 12,
+    "lessons": ["professions-1", "school-1", "office-1", "skills-1"]
+  },
+  {
+    "id": "health-body",
+    "title": "Health & Body",
+    "order": 13,
+    "lessons": ["body-1", "health-1", "doctor-1", "feelings-1"]
+  },
+  {
+    "id": "weather-nature",
+    "title": "Weather & Nature",
+    "order": 14,
+    "lessons": ["weather-1", "seasons-1", "nature-1", "animals-1"]
+  },
+  {
+    "id": "hobbies-sports",
+    "title": "Hobbies & Sports",
+    "order": 15,
+    "lessons": ["hobbies-1", "sports-1", "music-1", "leisure-1"]
+  },
+  {
+    "id": "conversation-1",
+    "title": "Basic Conversations",
+    "order": 16,
+    "lessons": ["small-talk-1", "questions-1", "opinions-1", "agreements-1"]
+  }
+]

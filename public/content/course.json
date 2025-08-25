@@ -1,0 +1,11 @@
+{
+  "id": "bulglo-cyrillic",
+  "title": "Complete Bulgarian Course",
+  "version": "2.0.0",
+  "units": [
+    "alphabet-vowels", "alphabet-consonants-1", "alphabet-consonants-2", "alphabet-special",
+    "greetings", "family", "numbers-time", "food-drinks", "home-living", "clothes-colors",
+    "transport-travel", "work-education", "health-body", "weather-nature", "hobbies-sports",
+    "conversation-1"
+  ]
+}

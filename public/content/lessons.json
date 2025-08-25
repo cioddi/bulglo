@@ -1,0 +1,635 @@
+[
+  {
+    "id": "vowels-1",
+    "title": "А, Е, И - Basic Vowels",
+    "unitId": "alphabet-vowels",
+    "exercises": [
+      {
+        "id": "ex1",
+        "kind": "multiple_choice",
+        "prompt": "Which letter sounds like 'ah' as in 'father'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["А", "Е", "И", "О"]
+        },
+        "correct": "А",
+        "tips": ["This is the first letter of the Bulgarian alphabet", "It's identical to the Latin A"]
+      },
+      {
+        "id": "ex2",
+        "kind": "multiple_choice",
+        "prompt": "Which letter sounds like 'eh' as in 'bed'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["А", "Е", "И", "У"]
+        },
+        "correct": "Е",
+        "tips": ["This letter looks exactly like the English E"]
+      },
+      {
+        "id": "ex3",
+        "kind": "match_pairs",
+        "prompt": "Match the letters to their sounds:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["А", "Е", "И"],
+          "rightItems": ["ee", "eh", "ah"]
+        },
+        "correct": ["А:ah", "Е:eh", "И:ee"]
+      },
+      {
+        "id": "ex4",
+        "kind": "select_letters",
+        "prompt": "Build the word 'има' (there is):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["И", "М", "А", "Е", "и", "м", "а"],
+          "targetWord": "има"
+        },
+        "correct": ["и", "м", "а"]
+      },
+      {
+        "id": "ex5",
+        "kind": "flashcard",
+        "prompt": "Learn this vowel:",
+        "promptLang": "en",
+        "data": {
+          "front": "И",
+          "back": "sounds like 'ee' in 'see'"
+        },
+        "correct": "good"
+      }
+    ],
+    "vocab": ["yes", "no"]
+  },
+  {
+    "id": "vowels-2", 
+    "title": "О, У - Round Vowels",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-1"],
+    "exercises": [
+      {
+        "id": "ex6",
+        "kind": "multiple_choice",
+        "prompt": "Which letter sounds like 'oo' as in 'boot'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["О", "У", "А", "Е"]
+        },
+        "correct": "У",
+        "tips": ["This letter looks like the English Y", "It makes the 'oo' sound"]
+      },
+      {
+        "id": "ex7",
+        "kind": "true_false",
+        "prompt": "The letter 'О' sounds like 'oh' in English.",
+        "promptLang": "en",
+        "data": {
+          "statement": "О sounds like 'oh'"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex8",
+        "kind": "select_letters", 
+        "prompt": "Build the word 'тук' (here):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Т", "У", "К", "О", "т", "у", "к"],
+          "targetWord": "тук"
+        },
+        "correct": ["т", "у", "к"]
+      },
+      {
+        "id": "ex9",
+        "kind": "type",
+        "prompt": "Type the word 'кот' (cat):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "кот"
+      }
+    ]
+  },
+  {
+    "id": "vowels-3",
+    "title": "Special Vowels: Ъ, Ю, Я",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-2"],
+    "exercises": [
+      {
+        "id": "ex10",
+        "kind": "multiple_choice",
+        "prompt": "Which is the 'schwa' sound (like 'uh')?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Ю", "Я", "Ъ", "Ь"]
+        },
+        "correct": "Ъ",
+        "tips": ["This is called 'er goliam' (big yer)", "Very common in Bulgarian words"]
+      },
+      {
+        "id": "ex11",
+        "kind": "match_pairs",
+        "prompt": "Match the special vowels:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["Ъ", "Ю", "Я"],
+          "rightItems": ["ya", "uh", "yu"]
+        },
+        "correct": ["Ъ:uh", "Ю:yu", "Я:ya"]
+      },
+      {
+        "id": "ex12",
+        "kind": "type",
+        "prompt": "Type 'България' (Bulgaria):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "България"
+      }
+    ]
+  },
+  {
+    "id": "vowels-review",
+    "title": "All Vowels Review",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-3"],
+    "exercises": [
+      {
+        "id": "ex13",
+        "kind": "order_words",
+        "prompt": "Arrange these vowels alphabetically:",
+        "promptLang": "en",
+        "data": {
+          "words": ["Я", "А", "Ю", "У", "Е"]
+        },
+        "correct": ["А", "Е", "У", "Ю", "Я"]
+      },
+      {
+        "id": "ex14",
+        "kind": "multiple_choice",
+        "prompt": "How many vowels are in Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["5", "6", "7", "8"]
+        },
+        "correct": "6",
+        "tips": ["А, Е, И, О, У, Ъ are the main vowels", "Ю and Я are vowel combinations"]
+      }
+    ]
+  },
+  {
+    "id": "consonants-1",
+    "title": "Easy Consonants: М, Н, Л, Р",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["vowels-review"],
+    "exercises": [
+      {
+        "id": "ex15",
+        "kind": "multiple_choice",
+        "prompt": "Which consonant looks like the English H?",
+        "promptLang": "en",
+        "data": {
+          "options": ["М", "Н", "Л", "Р"]
+        },
+        "correct": "Н",
+        "tips": ["Н looks like H but sounds like 'n'"]
+      },
+      {
+        "id": "ex16",
+        "kind": "select_letters",
+        "prompt": "Build the word 'мама' (mama):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["М", "А", "Н", "м", "а", "н"],
+          "targetWord": "мама"
+        },
+        "correct": ["м", "а", "м", "а"]
+      },
+      {
+        "id": "ex17",
+        "kind": "type",
+        "prompt": "Type 'нор' (burrow):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "нор"
+      }
+    ],
+    "vocab": ["mother", "father"]
+  },
+  {
+    "id": "consonants-2",
+    "title": "More Consonants: Б, В, Г, Д",
+    "unitId": "alphabet-consonants-1", 
+    "prerequisites": ["consonants-1"],
+    "exercises": [
+      {
+        "id": "ex18",
+        "kind": "multiple_choice",
+        "prompt": "Which letter looks like the English B but sounds like 'v'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Б", "В", "Г", "Д"]
+        },
+        "correct": "В",
+        "tips": ["В looks like B but makes the 'v' sound"]
+      },
+      {
+        "id": "ex19",
+        "kind": "match_pairs",
+        "prompt": "Match the letters to sounds:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["Б", "В", "Г", "Д"],
+          "rightItems": ["d", "g", "b", "v"]
+        },
+        "correct": ["Б:b", "В:v", "Г:g", "Д:d"]
+      },
+      {
+        "id": "ex20",
+        "kind": "type",
+        "prompt": "Type 'вода' (water):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "вода"
+      }
+    ],
+    "vocab": ["water", "good", "bad"]
+  },
+  {
+    "id": "greetings-1",
+    "title": "Basic Greetings",
+    "unitId": "greetings",
+    "prerequisites": ["consonants-2"],
+    "exercises": [
+      {
+        "id": "ex21",
+        "kind": "multiple_choice",
+        "prompt": "How do you say 'hello' in Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["довиждане", "здравей", "благодаря", "моля"]
+        },
+        "correct": "здравей"
+      },
+      {
+        "id": "ex22",
+        "kind": "match_pairs",
+        "prompt": "Match the greetings:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["здравей", "довиждане", "добро утро"],
+          "rightItems": ["goodbye", "good morning", "hello"]
+        },
+        "correct": ["здравей:hello", "довиждане:goodbye", "добро утро:good morning"]
+      },
+      {
+        "id": "ex23",
+        "kind": "type",
+        "prompt": "Type 'добър вечер' (good evening):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "добър вечер"
+      }
+    ],
+    "vocab": ["hello", "goodbye", "good-morning", "good-evening"]
+  },
+  {
+    "id": "greetings-2",
+    "title": "Time-based Greetings",
+    "unitId": "greetings",
+    "prerequisites": ["greetings-1"],
+    "exercises": [
+      {
+        "id": "ex24",
+        "kind": "multiple_choice",
+        "prompt": "What do you say before going to bed?",
+        "promptLang": "en",
+        "data": {
+          "options": ["добро утро", "добър вечер", "лека нощ", "довиждане"]
+        },
+        "correct": "лека нощ"
+      },
+      {
+        "id": "ex25",
+        "kind": "true_false",
+        "prompt": "You say 'добро утро' in the morning.",
+        "promptLang": "en",
+        "data": {
+          "statement": "добро утро = morning greeting"
+        },
+        "correct": "true"
+      }
+    ],
+    "vocab": ["good-night", "morning", "evening", "night"]
+  },
+  {
+    "id": "family-1",
+    "title": "Parents and Children",
+    "unitId": "family",
+    "prerequisites": ["greetings-2"],
+    "exercises": [
+      {
+        "id": "ex26",
+        "kind": "multiple_choice",
+        "prompt": "How do you say 'mother' in Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["баща", "майка", "дете", "брат"]
+        },
+        "correct": "майка"
+      },
+      {
+        "id": "ex27",
+        "kind": "match_pairs",
+        "prompt": "Match family members:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["майка", "баща", "син", "дъщеря"],
+          "rightItems": ["daughter", "son", "mother", "father"]
+        },
+        "correct": ["майка:mother", "баща:father", "син:son", "дъщеря:daughter"]
+      },
+      {
+        "id": "ex28",
+        "kind": "type",
+        "prompt": "Type 'моето дете' (my child):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "моето дете"
+      }
+    ],
+    "vocab": ["mother", "father", "son", "daughter", "child"]
+  },
+  {
+    "id": "family-2",
+    "title": "Extended Family",
+    "unitId": "family",
+    "prerequisites": ["family-1"],
+    "exercises": [
+      {
+        "id": "ex29",
+        "kind": "multiple_choice",
+        "prompt": "What do you call your grandmother?",
+        "promptLang": "en",
+        "data": {
+          "options": ["леля", "баба", "сестра", "майка"]
+        },
+        "correct": "баба"
+      },
+      {
+        "id": "ex30",
+        "kind": "select_letters",
+        "prompt": "Build the word 'дядо' (grandfather):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Д", "Я", "О", "д", "я", "о", "а"],
+          "targetWord": "дядо"
+        },
+        "correct": ["д", "я", "д", "о"]
+      }
+    ],
+    "vocab": ["grandmother", "grandfather", "brother", "sister", "aunt", "uncle"]
+  },
+  {
+    "id": "numbers-1",
+    "title": "Numbers 1-5",
+    "unitId": "numbers-time",
+    "prerequisites": ["family-2"],
+    "exercises": [
+      {
+        "id": "ex31",
+        "kind": "match_pairs",
+        "prompt": "Match the numbers:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["едно", "две", "три", "четири", "пет"],
+          "rightItems": ["4", "1", "3", "5", "2"]
+        },
+        "correct": ["едно:1", "две:2", "три:3", "четири:4", "пет:5"]
+      },
+      {
+        "id": "ex32",
+        "kind": "order_words",
+        "prompt": "Put these numbers in order from 1 to 5:",
+        "promptLang": "en",
+        "data": {
+          "words": ["пет", "две", "четири", "едно", "три"]
+        },
+        "correct": ["едно", "две", "три", "четири", "пет"]
+      },
+      {
+        "id": "ex33",
+        "kind": "type",
+        "prompt": "Type the number 'три' (three):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "три"
+      }
+    ],
+    "vocab": ["one", "two", "three", "four", "five"]
+  },
+  {
+    "id": "food-1",
+    "title": "Basic Food Items",
+    "unitId": "food-drinks",
+    "prerequisites": ["numbers-1"],
+    "exercises": [
+      {
+        "id": "ex34",
+        "kind": "multiple_choice",
+        "prompt": "What is 'bread' in Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["вода", "хляб", "мляко", "месо"]
+        },
+        "correct": "хляб"
+      },
+      {
+        "id": "ex35",
+        "kind": "match_pairs",
+        "prompt": "Match the food items:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["хляб", "мляко", "месо", "сирене"],
+          "rightItems": ["cheese", "meat", "bread", "milk"]
+        },
+        "correct": ["хляб:bread", "мляко:milk", "месо:meat", "сирене:cheese"]
+      },
+      {
+        "id": "ex36",
+        "kind": "type",
+        "prompt": "Type 'ябълка' (apple):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "ябълка"
+      }
+    ],
+    "vocab": ["bread", "milk", "meat", "cheese", "apple", "water"]
+  },
+  {
+    "id": "colors-1",
+    "title": "Basic Colors",
+    "unitId": "clothes-colors",
+    "prerequisites": ["food-1"],
+    "exercises": [
+      {
+        "id": "ex37",
+        "kind": "multiple_choice",
+        "prompt": "What color is 'червен'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["blue", "red", "green", "yellow"]
+        },
+        "correct": "red"
+      },
+      {
+        "id": "ex38",
+        "kind": "match_pairs",
+        "prompt": "Match the colors:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["червен", "син", "зелен", "жълт"],
+          "rightItems": ["blue", "yellow", "red", "green"]
+        },
+        "correct": ["червен:red", "син:blue", "зелен:green", "жълт:yellow"]
+      },
+      {
+        "id": "ex39",
+        "kind": "type",
+        "prompt": "Type 'черен' (black):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "черен"
+      }
+    ],
+    "vocab": ["red", "blue", "green", "yellow", "black", "white"]
+  },
+  {
+    "id": "transport-1",
+    "title": "Vehicles",
+    "unitId": "transport-travel",
+    "prerequisites": ["colors-1"],
+    "exercises": [
+      {
+        "id": "ex40",
+        "kind": "multiple_choice",
+        "prompt": "How do you say 'car' in Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["автобус", "кола", "влак", "колело"]
+        },
+        "correct": "кола"
+      },
+      {
+        "id": "ex41",
+        "kind": "match_pairs",
+        "prompt": "Match the vehicles:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["кола", "автобус", "влак", "самолет"],
+          "rightItems": ["train", "plane", "car", "bus"]
+        },
+        "correct": ["кола:car", "автобус:bus", "влак:train", "самолет:plane"]
+      }
+    ],
+    "vocab": ["car", "bus", "train", "plane", "bicycle"]
+  },
+  {
+    "id": "body-1",
+    "title": "Body Parts",
+    "unitId": "health-body",
+    "prerequisites": ["transport-1"],
+    "exercises": [
+      {
+        "id": "ex42",
+        "kind": "multiple_choice",
+        "prompt": "What is 'head' in Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["ръка", "крак", "глава", "око"]
+        },
+        "correct": "глава"
+      },
+      {
+        "id": "ex43",
+        "kind": "match_pairs",
+        "prompt": "Match the body parts:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["глава", "око", "ръка", "крак"],
+          "rightItems": ["foot", "head", "hand", "eye"]
+        },
+        "correct": ["глава:head", "око:eye", "ръка:hand", "крак:foot"]
+      }
+    ],
+    "vocab": ["head", "eye", "nose", "mouth", "hand", "foot"]
+  },
+  {
+    "id": "weather-1",
+    "title": "Weather Conditions",
+    "unitId": "weather-nature",
+    "prerequisites": ["body-1"],
+    "exercises": [
+      {
+        "id": "ex44",
+        "kind": "multiple_choice",
+        "prompt": "What is 'sun' in Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["дъжд", "сняг", "слънце", "вятър"]
+        },
+        "correct": "слънце"
+      },
+      {
+        "id": "ex45",
+        "kind": "match_pairs",
+        "prompt": "Match the weather:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["слънце", "дъжд", "сняг", "вятър"],
+          "rightItems": ["wind", "snow", "rain", "sun"]
+        },
+        "correct": ["слънце:sun", "дъжд:rain", "сняг:snow", "вятър:wind"]
+      }
+    ],
+    "vocab": ["sun", "rain", "snow", "wind", "weather", "hot", "cold"]
+  },
+  {
+    "id": "small-talk-1",
+    "title": "Simple Conversations", 
+    "unitId": "conversation-1",
+    "prerequisites": ["weather-1"],
+    "exercises": [
+      {
+        "id": "ex46",
+        "kind": "multiple_choice",
+        "prompt": "How do you ask 'How are you?' in Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["как се казваш", "как си", "къде си", "какво правиш"]
+        },
+        "correct": "как си"
+      },
+      {
+        "id": "ex47",
+        "kind": "match_pairs",
+        "prompt": "Match the conversation phrases:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["как си", "добре, благодаря", "как се казваш", "казвам се"],
+          "rightItems": ["my name is", "how are you", "fine, thanks", "what's your name"]
+        },
+        "correct": ["как си:how are you", "добре, благодаря:fine, thanks", "как се казваш:what's your name", "казвам се:my name is"]
+      },
+      {
+        "id": "ex48",
+        "kind": "type",
+        "prompt": "Type 'приятно ми е' (nice to meet you):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "приятно ми е"
+      }
+    ],
+    "vocab": ["how-are-you", "fine-thanks", "what-name", "my-name-is", "nice-to-meet"]
+  }
+]

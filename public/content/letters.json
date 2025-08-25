@@ -1,0 +1,272 @@
+[
+  {
+    "id": "a",
+    "upper": "А",
+    "lower": "а",
+    "name": "A",
+    "romanization": "a",
+    "ipa": "a",
+    "tips": ["Similar to English 'a' in 'father'", "One of the most common vowels in Bulgarian"]
+  },
+  {
+    "id": "b",
+    "upper": "Б",
+    "lower": "б",
+    "name": "Be",
+    "romanization": "b",
+    "ipa": "b",
+    "tips": ["Exactly like English 'b'", "The lowercase looks like the number 6"]
+  },
+  {
+    "id": "v",
+    "upper": "В",
+    "lower": "в",
+    "name": "Ve",
+    "romanization": "v",
+    "ipa": "v",
+    "tips": ["Like English 'v'", "Looks like English capital B"]
+  },
+  {
+    "id": "g",
+    "upper": "Г",
+    "lower": "г",
+    "name": "Ge",
+    "romanization": "g",
+    "ipa": "g",
+    "tips": ["Like English 'g' in 'go'", "Looks like an upside-down English L"]
+  },
+  {
+    "id": "d",
+    "upper": "Д",
+    "lower": "д",
+    "name": "De",
+    "romanization": "d",
+    "ipa": "d",
+    "tips": ["Like English 'd'", "The capital looks like a triangle on a line"]
+  },
+  {
+    "id": "e",
+    "upper": "Е",
+    "lower": "е",
+    "name": "E",
+    "romanization": "e",
+    "ipa": "ɛ",
+    "tips": ["Like English 'e' in 'bet'", "Identical to English capital E"]
+  },
+  {
+    "id": "zh",
+    "upper": "Ж",
+    "lower": "ж",
+    "name": "Zhe",
+    "romanization": "zh",
+    "ipa": "ʒ",
+    "tips": ["Like 's' in 'measure' or 'zh' in French 'je'", "Looks like a snowflake or spider"]
+  },
+  {
+    "id": "z",
+    "upper": "З",
+    "lower": "з",
+    "name": "Ze",
+    "romanization": "z",
+    "ipa": "z",
+    "tips": ["Like English 'z'", "Looks like the number 3"]
+  },
+  {
+    "id": "i",
+    "upper": "И",
+    "lower": "и",
+    "name": "I",
+    "romanization": "i",
+    "ipa": "i",
+    "tips": ["Like English 'ee' in 'see'", "Looks like English N but backwards"]
+  },
+  {
+    "id": "j",
+    "upper": "Й",
+    "lower": "й",
+    "name": "I kratko",
+    "romanization": "y",
+    "ipa": "j",
+    "tips": ["Like English 'y' in 'yes'", "И with a breve (curved line) on top"]
+  },
+  {
+    "id": "k",
+    "upper": "К",
+    "lower": "к",
+    "name": "Ka",
+    "romanization": "k",
+    "ipa": "k",
+    "tips": ["Like English 'k'", "Identical to English K"]
+  },
+  {
+    "id": "l",
+    "upper": "Л",
+    "lower": "л",
+    "name": "El",
+    "romanization": "l",
+    "ipa": "l",
+    "tips": ["Like English 'l'", "Looks like an upside-down English V"]
+  },
+  {
+    "id": "m",
+    "upper": "М",
+    "lower": "м",
+    "name": "Em",
+    "romanization": "m",
+    "ipa": "m",
+    "tips": ["Like English 'm'", "Identical to English M"]
+  },
+  {
+    "id": "n",
+    "upper": "Н",
+    "lower": "н",
+    "name": "En",
+    "romanization": "n",
+    "ipa": "n",
+    "tips": ["Like English 'n'", "Looks like English H"]
+  },
+  {
+    "id": "o",
+    "upper": "О",
+    "lower": "о",
+    "name": "O",
+    "romanization": "o",
+    "ipa": "ɔ",
+    "tips": ["Like English 'o' in 'hot'", "Identical to English O"]
+  },
+  {
+    "id": "p",
+    "upper": "П",
+    "lower": "п",
+    "name": "Pe",
+    "romanization": "p",
+    "ipa": "p",
+    "tips": ["Like English 'p'", "Looks like a Greek pi (π)"]
+  },
+  {
+    "id": "r",
+    "upper": "Р",
+    "lower": "р",
+    "name": "Er",
+    "romanization": "r",
+    "ipa": "r",
+    "tips": ["Rolled 'r', stronger than English", "Identical to English P"]
+  },
+  {
+    "id": "s",
+    "upper": "С",
+    "lower": "с",
+    "name": "Es",
+    "romanization": "s",
+    "ipa": "s",
+    "tips": ["Like English 's'", "Identical to English C"]
+  },
+  {
+    "id": "t",
+    "upper": "Т",
+    "lower": "т",
+    "name": "Te",
+    "romanization": "t",
+    "ipa": "t",
+    "tips": ["Like English 't'", "Identical to English T"]
+  },
+  {
+    "id": "u",
+    "upper": "У",
+    "lower": "у",
+    "name": "U",
+    "romanization": "u",
+    "ipa": "u",
+    "tips": ["Like English 'oo' in 'boot'", "Looks like English Y"]
+  },
+  {
+    "id": "f",
+    "upper": "Ф",
+    "lower": "ф",
+    "name": "Ef",
+    "romanization": "f",
+    "ipa": "f",
+    "tips": ["Like English 'f'", "Looks like Greek phi (φ)"]
+  },
+  {
+    "id": "h",
+    "upper": "Х",
+    "lower": "х",
+    "name": "Ha",
+    "romanization": "h",
+    "ipa": "x",
+    "tips": ["Like 'ch' in German 'Bach' or Scottish 'loch'", "Identical to English X"]
+  },
+  {
+    "id": "ts",
+    "upper": "Ц",
+    "lower": "ц",
+    "name": "Tse",
+    "romanization": "ts",
+    "ipa": "ts",
+    "tips": ["Like 'ts' in 'cats'", "Has a little tail at the bottom right"]
+  },
+  {
+    "id": "ch",
+    "upper": "Ч",
+    "lower": "ч",
+    "name": "Che",
+    "romanization": "ch",
+    "ipa": "tʃ",
+    "tips": ["Like 'ch' in 'church'", "Looks like the number 4"]
+  },
+  {
+    "id": "sh",
+    "upper": "Ш",
+    "lower": "ш",
+    "name": "Sha",
+    "romanization": "sh",
+    "ipa": "ʃ",
+    "tips": ["Like 'sh' in 'ship'", "Looks like English W but with three legs"]
+  },
+  {
+    "id": "sht",
+    "upper": "Щ",
+    "lower": "щ",
+    "name": "Shta",
+    "romanization": "sht",
+    "ipa": "ʃt",
+    "tips": ["Like 'sht' combination", "Ш with a tail at the bottom right"]
+  },
+  {
+    "id": "a-grave",
+    "upper": "Ъ",
+    "lower": "ъ",
+    "name": "Er goliam",
+    "romanization": "a",
+    "ipa": "ə",
+    "tips": ["Like 'u' in 'but' - a schwa sound", "Called 'big yer' - very important in Bulgarian"]
+  },
+  {
+    "id": "y",
+    "upper": "Ь",
+    "lower": "ь",
+    "name": "Er malak",
+    "romanization": "y",
+    "ipa": "j",
+    "tips": ["Palatalizes the preceding consonant", "Called 'small yer' - softens consonants"]
+  },
+  {
+    "id": "yu",
+    "upper": "Ю",
+    "lower": "ю",
+    "name": "Yu",
+    "romanization": "yu",
+    "ipa": "ju",
+    "tips": ["Like 'u' in 'use' or 'you'", "Looks like 'IO' connected"]
+  },
+  {
+    "id": "ya",
+    "upper": "Я",
+    "lower": "я",
+    "name": "Ya",
+    "romanization": "ya",
+    "ipa": "ja",
+    "tips": ["Like 'ya' in 'yard'", "Backwards English R"]
+  }
+]
