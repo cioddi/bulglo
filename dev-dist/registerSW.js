@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) navigator.serviceWorker.register('/bulglo/dev-sw.js?dev-sw', { scope: '/bulglo/', type: 'classic' })

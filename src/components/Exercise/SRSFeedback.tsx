@@ -1,6 +1,5 @@
 import React from 'react';
 import type { Exercise } from '../../types';
-import { Button } from '../UI/Button';
 
 interface SRSFeedbackProps {
   exercise: Exercise;
