@@ -84,6 +84,7 @@ export interface ExerciseResult {
   correct: boolean;
   timeSpent: number;
   attempts: number;
+  srsConfidence?: number; // 0-4 scale for spaced repetition
 }
 
 export interface LessonResult {

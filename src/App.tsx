@@ -4,6 +4,7 @@ import { Layout } from './components/Layout/Layout';
 import { useContentStore } from './stores/useContentStore';
 import { useProgressStore } from './stores/useProgressStore';
 import { useTheme } from './hooks/useTheme';
+import { useHydration } from './hooks/useHydration';
 
 // Pages
 import { HomePage } from './pages/HomePage';
@@ -12,10 +13,12 @@ import { PracticePage } from './pages/PracticePage';
 import { LettersPage } from './pages/LettersPage';
 import { ProfilePage } from './pages/ProfilePage';
 import { LoadingPage } from './pages/LoadingPage';
+import { PWAInstallPrompt } from './components/PWAInstallPrompt';
 
 function App() {
   const { loadContent, loaded, loading, error } = useContentStore();
   const { updateStreak } = useProgressStore();
+  const isHydrated = useHydration();
   
   useTheme();
 
@@ -27,7 +30,7 @@ function App() {
     updateStreak();
   }, [loadContent, updateStreak]);
 
-  if (loading) {
+  if (loading || !isHydrated) {
     return <LoadingPage />;
   }
 
@@ -56,6 +59,7 @@ function App() {
 
   return (
     <Router basename="/bulglo">
+      <PWAInstallPrompt />
       <Routes>
         <Route path="/" element={
           <Layout>

@@ -3,25 +3,25 @@
     "id": "alphabet-vowels",
     "title": "Alphabet: Vowels",
     "order": 1,
-    "lessons": ["vowels-1", "vowels-2", "vowels-3", "vowels-review"]
+    "lessons": ["vowels-1", "vowels-2", "vowels-3", "vowels-review", "vowels-5", "vowels-6", "vowels-7", "vowels-8", "vowels-9", "vowels-10", "vowels-11", "vowels-12", "vowels-13", "vowels-14", "vowels-15", "vowels-16"]
   },
   {
     "id": "alphabet-consonants-1",
     "title": "Alphabet: Basic Consonants",
     "order": 2,
-    "lessons": ["consonants-1", "consonants-2", "consonants-3", "consonants-4"]
+    "lessons": ["consonants-1", "consonants-2", "consonants-3", "consonants-4", "consonants-5", "consonants-6", "consonants-7", "consonants-8", "consonants-9", "consonants-10", "consonants-11", "consonants-12", "consonants-13", "consonants-14", "consonants-15", "consonants-16"]
   },
   {
     "id": "alphabet-consonants-2",
     "title": "Alphabet: Tricky Consonants",
     "order": 3,
-    "lessons": ["consonants-5", "consonants-6", "consonants-7", "consonants-review"]
+    "lessons": ["consonants-5", "consonants-6", "consonants-7", "consonants-review", "tricky-8", "tricky-9", "tricky-10", "tricky-11", "tricky-12", "tricky-13", "tricky-14", "tricky-15", "tricky-16", "tricky-17", "tricky-18", "tricky-19"]
   },
   {
     "id": "alphabet-special",
     "title": "Alphabet: Special Letters",
     "order": 4,
-    "lessons": ["special-1", "special-2", "special-3", "alphabet-final"]
+    "lessons": ["special-1", "special-2", "special-3", "alphabet-final", "special-4", "special-5", "special-6", "special-7", "special-8", "special-9", "special-10", "special-11", "special-12", "special-13", "special-14", "special-15", "special-16"]
   },
   {
     "id": "greetings",

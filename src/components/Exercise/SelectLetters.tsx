@@ -20,6 +20,12 @@ export const SelectLetters: React.FC<SelectLettersProps> = ({
   const { letters, targetWord } = exercise.data;
   const selectedLetters = Array.isArray(answer) ? answer : [];
 
+  // Extract English translation from prompt (everything in parentheses)
+  const getEnglishTranslation = () => {
+    const match = exercise.prompt.match(/\((.*?)\)/);
+    return match ? match[1] : targetWord;
+  };
+
   const handleLetterClick = (letter: string) => {
     if (disabled) return;
 
@@ -42,12 +48,12 @@ export const SelectLetters: React.FC<SelectLettersProps> = ({
   return (
     <div className="space-y-6">
       {/* Target word display */}
-      <div className="text-center">
-        <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
-          Build the word:
+      <div className="text-center p-6 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-800">
+        <p className="text-sm text-primary-700 dark:text-primary-300 mb-2">
+          Build this word in Bulgarian:
         </p>
-        <p className="text-2xl font-bold text-gray-900 dark:text-gray-100">
-          {targetWord}
+        <p className="text-2xl font-bold text-primary-900 dark:text-primary-100">
+          {getEnglishTranslation()}
         </p>
       </div>
 

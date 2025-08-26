@@ -1370,5 +1370,257 @@
     "en": "no problem",
     "translit": "nyama problem",
     "tags": ["conversation"]
+  },
+  {
+    "id": "i-pronoun",
+    "bg": "аз",
+    "en": "I",
+    "translit": "az",
+    "tags": ["pronouns", "basic"]
+  },
+  {
+    "id": "iron-tool",
+    "bg": "ютия",
+    "en": "iron (for clothes)",
+    "translit": "yutiya",
+    "tags": ["household", "tools"]
+  },
+  {
+    "id": "june",
+    "bg": "юни",
+    "en": "June",
+    "translit": "yuni",
+    "tags": ["months", "time"]
+  },
+  {
+    "id": "january",
+    "bg": "януари",
+    "en": "January", 
+    "translit": "yanuary",
+    "tags": ["months", "time"]
+  },
+  {
+    "id": "may",
+    "bg": "май",
+    "en": "May",
+    "translit": "may",
+    "tags": ["months", "time"]
+  },
+  {
+    "id": "my-feminine",
+    "bg": "моя",
+    "en": "my (feminine)",
+    "translit": "moya",
+    "tags": ["pronouns", "possessive"]
+  },
+  {
+    "id": "good-neuter",
+    "bg": "добро",
+    "en": "good (neuter)",
+    "translit": "dobro",
+    "tags": ["adjectives"]
+  },
+  {
+    "id": "bad-neuter",
+    "bg": "лошо",
+    "en": "bad (neuter)",
+    "translit": "losho",
+    "tags": ["adjectives"]
+  },
+  {
+    "id": "big-neuter",
+    "bg": "голямо",
+    "en": "big (neuter)",
+    "translit": "golyamo",
+    "tags": ["adjectives"]
+  },
+  {
+    "id": "small-neuter",
+    "bg": "малко",
+    "en": "small (neuter)",
+    "translit": "malko",
+    "tags": ["adjectives"]
+  },
+  {
+    "id": "body",
+    "bg": "тяло",
+    "en": "body",
+    "translit": "tyalo",
+    "tags": ["anatomy"]
+  },
+  {
+    "id": "idea",
+    "bg": "идея",
+    "en": "idea",
+    "translit": "ideya",
+    "tags": ["abstract"]
+  },
+  {
+    "id": "theater",
+    "bg": "театър",
+    "en": "theater",
+    "translit": "teatar",
+    "tags": ["culture", "entertainment"]
+  },
+  {
+    "id": "ocean",
+    "bg": "океан",
+    "en": "ocean",
+    "translit": "okean",
+    "tags": ["nature", "geography"]
+  },
+  {
+    "id": "read-verb",
+    "bg": "чета",
+    "en": "I read",
+    "translit": "cheta",
+    "tags": ["verbs", "education"]
+  },
+  {
+    "id": "write-verb",
+    "bg": "пиша",
+    "en": "I write", 
+    "translit": "pisha",
+    "tags": ["verbs", "education"]
+  },
+  {
+    "id": "speak-verb",
+    "bg": "говоря",
+    "en": "I speak",
+    "translit": "govorya",
+    "tags": ["verbs", "communication"]
+  },
+  {
+    "id": "listen-verb",
+    "bg": "слушам",
+    "en": "I listen",
+    "translit": "slusham",
+    "tags": ["verbs", "communication"]
+  },
+  {
+    "id": "play-verb",
+    "bg": "играя",
+    "en": "I play",
+    "translit": "igraya",
+    "tags": ["verbs", "activities"]
+  },
+  {
+    "id": "love-verb",
+    "bg": "обичам",
+    "en": "I love",
+    "translit": "obicham",
+    "tags": ["verbs", "emotions"]
+  },
+  {
+    "id": "eat-verb",
+    "bg": "ям",
+    "en": "I eat",
+    "translit": "yam",
+    "tags": ["verbs", "daily-life"]
+  },
+  {
+    "id": "drink-verb",
+    "bg": "пия",
+    "en": "I drink",
+    "translit": "piya",
+    "tags": ["verbs", "daily-life"]
+  },
+  {
+    "id": "sleep-verb",
+    "bg": "спя",
+    "en": "I sleep",
+    "translit": "spya",
+    "tags": ["verbs", "daily-life"]
+  },
+  {
+    "id": "work-verb",
+    "bg": "работя",
+    "en": "I work",
+    "translit": "rabotya",
+    "tags": ["verbs", "daily-life"]
+  },
+  {
+    "id": "study-verb",
+    "bg": "уча",
+    "en": "I study",
+    "translit": "ucha",
+    "tags": ["verbs", "education"]
+  },
+  {
+    "id": "live-verb",
+    "bg": "живея",
+    "en": "I live",
+    "translit": "zhiveya",
+    "tags": ["verbs", "daily-life"]
+  },
+  {
+    "id": "automobile",
+    "bg": "автомобил",
+    "en": "automobile",
+    "translit": "avtomobil",
+    "tags": ["transport", "modern"]
+  },
+  {
+    "id": "republic",
+    "bg": "република",
+    "en": "republic",
+    "translit": "republika",
+    "tags": ["politics", "government"]
+  },
+  {
+    "id": "information",
+    "bg": "информация",
+    "en": "information",
+    "translit": "informatsiya",
+    "tags": ["abstract", "modern"]
+  },
+  {
+    "id": "education",
+    "bg": "образование",
+    "en": "education",
+    "translit": "obrazovanie",
+    "tags": ["abstract", "learning"]
+  },
+  {
+    "id": "absolutely",
+    "bg": "абсолютно",
+    "en": "absolutely",
+    "translit": "absolyutno",
+    "tags": ["adverbs"]
+  },
+  {
+    "id": "european",
+    "bg": "европейски",
+    "en": "European",
+    "translit": "evropeyski",
+    "tags": ["geography", "adjectives"]
+  },
+  {
+    "id": "bulgaria",
+    "bg": "България",
+    "en": "Bulgaria",
+    "translit": "Balgariya",
+    "tags": ["countries", "geography"]
+  },
+  {
+    "id": "command",
+    "bg": "заповед",
+    "en": "command",
+    "translit": "zapoved",
+    "tags": ["abstract"]
+  },
+  {
+    "id": "congratulations",
+    "bg": "поздравления",
+    "en": "congratulations",
+    "translit": "pozdravleniya",
+    "tags": ["greetings", "celebrations"]
+  },
+  {
+    "id": "am-verb",
+    "bg": "съм",
+    "en": "I am",
+    "translit": "sam",
+    "tags": ["verbs", "basic"]
   }
 ]

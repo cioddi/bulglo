@@ -178,6 +178,1090 @@
     ]
   },
   {
+    "id": "vowels-5",
+    "title": "Vowel Sounds Practice",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-review"],
+    "exercises": [
+      {
+        "id": "ex49",
+        "kind": "multiple_choice",
+        "prompt": "Which vowel sounds like 'oo' in 'moon'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["А", "У", "О", "И"]
+        },
+        "correct": "У",
+        "tips": ["У is pronounced like 'oo' in English"]
+      },
+      {
+        "id": "ex50",
+        "kind": "flashcard",
+        "prompt": "Learn this vowel sound:",
+        "promptLang": "en",
+        "data": {
+          "front": "Ъ",
+          "back": "sounds like 'uh' - the schwa sound"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex51",
+        "kind": "match_pairs",
+        "prompt": "Match vowels to their sounds:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["А", "Е", "И", "О"],
+          "rightItems": ["oh", "ah", "ee", "eh"]
+        },
+        "correct": ["А:ah", "Е:eh", "И:ee", "О:oh"]
+      },
+      {
+        "id": "ex52",
+        "kind": "select_letters",
+        "prompt": "Build the word 'аз' (I):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["А", "З", "Е", "а", "з", "е"],
+          "targetWord": "аз"
+        },
+        "correct": ["а", "з"]
+      },
+      {
+        "id": "ex53",
+        "kind": "true_false",
+        "prompt": "The letter 'И' sounds like 'ee' in 'see'.",
+        "promptLang": "en",
+        "data": {
+          "statement": "И = 'ee' sound"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex54",
+        "kind": "type",
+        "prompt": "Type 'ухо' (ear):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "ухо"
+      },
+      {
+        "id": "ex55",
+        "kind": "order_words",
+        "prompt": "Put these vowels in Bulgarian alphabetical order:",
+        "promptLang": "en",
+        "data": {
+          "words": ["У", "А", "И", "Е", "О"]
+        },
+        "correct": ["А", "Е", "И", "О", "У"]
+      },
+      {
+        "id": "ex56",
+        "kind": "multiple_choice",
+        "prompt": "What does 'ухо' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["eye", "ear", "nose", "mouth"]
+        },
+        "correct": "ear"
+      }
+    ],
+    "vocab": ["i-pronoun", "ear"]
+  },
+  {
+    "id": "vowels-6",
+    "title": "Vowel Combinations А-Е",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-5"],
+    "exercises": [
+      {
+        "id": "ex57",
+        "kind": "select_letters",
+        "prompt": "Build the word 'баща' (father):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Б", "А", "Щ", "А", "б", "а", "щ", "а"],
+          "targetWord": "баща"
+        },
+        "correct": ["б", "а", "щ", "а"]
+      },
+      {
+        "id": "ex58",
+        "kind": "match_pairs",
+        "prompt": "Match words with their meanings:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["баща", "майка", "дете", "баба"],
+          "rightItems": ["child", "grandmother", "father", "mother"]
+        },
+        "correct": ["баща:father", "майка:mother", "дете:child", "баба:grandmother"]
+      },
+      {
+        "id": "ex59",
+        "kind": "type",
+        "prompt": "Type 'дядо' (grandfather):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "дядо"
+      },
+      {
+        "id": "ex60",
+        "kind": "true_false",
+        "prompt": "'майка' means 'mother' in Bulgarian.",
+        "promptLang": "en",
+        "data": {
+          "statement": "майка = mother"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex61",
+        "kind": "flashcard",
+        "prompt": "Learn this family word:",
+        "promptLang": "en",
+        "data": {
+          "front": "дете",
+          "back": "child"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex62",
+        "kind": "multiple_choice",
+        "prompt": "Which word contains both А and Е vowels?",
+        "promptLang": "en",
+        "data": {
+          "options": ["баща", "майка", "дете", "баба"]
+        },
+        "correct": "дете",
+        "tips": ["дете has Е and Е vowels"]
+      },
+      {
+        "id": "ex63",
+        "kind": "order_words",
+        "prompt": "Arrange by age (youngest to oldest):",
+        "promptLang": "en",
+        "data": {
+          "words": ["дядо", "дете", "баща", "баба"]
+        },
+        "correct": ["дете", "баща", "баба", "дядо"]
+      },
+      {
+        "id": "ex64",
+        "kind": "select_letters",
+        "prompt": "Build the word 'леля' (aunt):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Л", "Е", "Л", "Я", "л", "е", "л", "я"],
+          "targetWord": "леля"
+        },
+        "correct": ["л", "е", "л", "я"]
+      }
+    ],
+    "vocab": ["father", "mother", "child", "grandmother", "grandfather", "aunt"]
+  },
+  {
+    "id": "vowels-7",
+    "title": "О-У Round Vowels Practice",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-6"],
+    "exercises": [
+      {
+        "id": "ex65",
+        "kind": "multiple_choice",
+        "prompt": "Which word means 'water'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["вода", "вино", "сок", "чай"]
+        },
+        "correct": "вода"
+      },
+      {
+        "id": "ex66",
+        "kind": "type",
+        "prompt": "Type 'утро' (morning):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "утро"
+      },
+      {
+        "id": "ex67",
+        "kind": "match_pairs",
+        "prompt": "Match words with О and У sounds:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["вода", "утро", "око", "ухо"],
+          "rightItems": ["ear", "morning", "water", "eye"]
+        },
+        "correct": ["вода:water", "утро:morning", "око:eye", "ухо:ear"]
+      },
+      {
+        "id": "ex68",
+        "kind": "select_letters",
+        "prompt": "Build the word 'дом' (home):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Д", "О", "М", "У", "д", "о", "м"],
+          "targetWord": "дом"
+        },
+        "correct": ["д", "о", "м"]
+      },
+      {
+        "id": "ex69",
+        "kind": "flashcard",
+        "prompt": "Learn this body part:",
+        "promptLang": "en",
+        "data": {
+          "front": "око",
+          "back": "eye"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex70",
+        "kind": "true_false",
+        "prompt": "The word 'дом' contains the О vowel.",
+        "promptLang": "en",
+        "data": {
+          "statement": "дом contains О"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex71",
+        "kind": "order_words",
+        "prompt": "Order these words alphabetically:",
+        "promptLang": "en",
+        "data": {
+          "words": ["утро", "око", "вода", "дом"]
+        },
+        "correct": ["вода", "дом", "око", "утро"]
+      },
+      {
+        "id": "ex72",
+        "kind": "multiple_choice",
+        "prompt": "Which vowel appears twice in 'утро'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["А", "У", "О", "И"]
+        },
+        "correct": "У",
+        "tips": ["утро has У at the beginning and О at the end"]
+      }
+    ],
+    "vocab": ["water", "morning", "eye", "ear", "home"]
+  },
+  {
+    "id": "vowels-8",
+    "title": "Special Vowel Ъ Practice",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-7"],
+    "exercises": [
+      {
+        "id": "ex73",
+        "kind": "flashcard",
+        "prompt": "Master this tricky vowel:",
+        "promptLang": "en",
+        "data": {
+          "front": "Ъ",
+          "back": "er goliam - sounds like 'uh' in 'but'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex74",
+        "kind": "type",
+        "prompt": "Type 'къща' (house):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "къща"
+      },
+      {
+        "id": "ex75",
+        "kind": "multiple_choice",
+        "prompt": "Which word contains the Ъ vowel?",
+        "promptLang": "en",
+        "data": {
+          "options": ["дом", "къща", "вода", "утро"]
+        },
+        "correct": "къща"
+      },
+      {
+        "id": "ex76",
+        "kind": "select_letters",
+        "prompt": "Build the word 'мъж' (man):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["М", "Ъ", "Ж", "А", "м", "ъ", "ж"],
+          "targetWord": "мъж"
+        },
+        "correct": ["м", "ъ", "ж"]
+      },
+      {
+        "id": "ex77",
+        "kind": "match_pairs",
+        "prompt": "Match words with Ъ:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["къща", "мъж", "дъжд", "съм"],
+          "rightItems": ["rain", "am", "house", "man"]
+        },
+        "correct": ["къща:house", "мъж:man", "дъжд:rain", "съм:am"]
+      },
+      {
+        "id": "ex78",
+        "kind": "true_false",
+        "prompt": "The Ъ vowel is the most common vowel in Bulgarian.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Ъ is most common vowel"
+        },
+        "correct": "true",
+        "tips": ["Ъ appears very frequently in Bulgarian words"]
+      },
+      {
+        "id": "ex79",
+        "kind": "order_words",
+        "prompt": "Order by difficulty to pronounce (easiest to hardest):",
+        "promptLang": "en",
+        "data": {
+          "words": ["дъжд", "къща", "мъж", "съм"]
+        },
+        "correct": ["съм", "мъж", "къща", "дъжд"]
+      },
+      {
+        "id": "ex80",
+        "kind": "multiple_choice",
+        "prompt": "What does 'дъжд' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["snow", "rain", "wind", "sun"]
+        },
+        "correct": "rain"
+      }
+    ],
+    "vocab": ["house", "man", "rain", "am-verb"]
+  },
+  {
+    "id": "vowels-9", 
+    "title": "Soft Vowels Ю and Я",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-8"],
+    "exercises": [
+      {
+        "id": "ex81",
+        "kind": "multiple_choice",
+        "prompt": "Which vowel sounds like 'yu'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Я", "Ю", "У", "И"]
+        },
+        "correct": "Ю"
+      },
+      {
+        "id": "ex82",
+        "kind": "flashcard",
+        "prompt": "Learn this soft vowel:",
+        "promptLang": "en",
+        "data": {
+          "front": "Я",
+          "back": "sounds like 'ya' in 'yard'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex83",
+        "kind": "type",
+        "prompt": "Type 'ютия' (iron - for clothes):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "ютия"
+      },
+      {
+        "id": "ex84",
+        "kind": "select_letters",
+        "prompt": "Build the word 'яйце' (egg):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Я", "Й", "Ц", "Е", "я", "й", "ц", "е"],
+          "targetWord": "яйце"
+        },
+        "correct": ["я", "й", "ц", "е"]
+      },
+      {
+        "id": "ex85",
+        "kind": "match_pairs",
+        "prompt": "Match Ю and Я words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["ютия", "яйце", "юли", "ябълка"],
+          "rightItems": ["apple", "July", "egg", "iron"]
+        },
+        "correct": ["ютия:iron", "яйце:egg", "юли:July", "ябълка:apple"]
+      },
+      {
+        "id": "ex86",
+        "kind": "true_false",
+        "prompt": "Ю and Я are considered 'soft' vowels in Bulgarian.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Ю and Я are soft vowels"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex87",
+        "kind": "order_words",
+        "prompt": "Order these months chronologically:",
+        "promptLang": "en",
+        "data": {
+          "words": ["юни", "януари", "юли", "май"]
+        },
+        "correct": ["януари", "май", "юни", "юли"]
+      },
+      {
+        "id": "ex88",
+        "kind": "multiple_choice",
+        "prompt": "Which word starts with Я?",
+        "promptLang": "en",
+        "data": {
+          "options": ["ютия", "ябълка", "юли", "юни"]
+        },
+        "correct": "ябълка"
+      }
+    ],
+    "vocab": ["iron-tool", "egg", "july", "apple", "june", "january", "may"]
+  },
+  {
+    "id": "vowels-10",
+    "title": "Reading Simple Words",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-9"],
+    "exercises": [
+      {
+        "id": "ex89",
+        "kind": "type",
+        "prompt": "Type 'моя' (my - feminine):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "моя"
+      },
+      {
+        "id": "ex90",
+        "kind": "select_letters",
+        "prompt": "Build the word 'добро' (good - neuter):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Д", "О", "Б", "Р", "О", "д", "о", "б", "р", "о"],
+          "targetWord": "добро"
+        },
+        "correct": ["д", "о", "б", "р", "о"]
+      },
+      {
+        "id": "ex91",
+        "kind": "match_pairs",
+        "prompt": "Match simple adjectives:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["добро", "лошо", "голямо", "малко"],
+          "rightItems": ["small", "good", "big", "bad"]
+        },
+        "correct": ["добро:good", "лошо:bad", "голямо:big", "малко:small"]
+      },
+      {
+        "id": "ex92",
+        "kind": "flashcard",
+        "prompt": "Learn this possessive word:",
+        "promptLang": "en",
+        "data": {
+          "front": "моя",
+          "back": "my (for feminine nouns)"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex93",
+        "kind": "multiple_choice",
+        "prompt": "Which word means 'big'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["малко", "добро", "голямо", "лошо"]
+        },
+        "correct": "голямо"
+      },
+      {
+        "id": "ex94",
+        "kind": "true_false",
+        "prompt": "The word 'лошо' contains three different vowels.",
+        "promptLang": "en",
+        "data": {
+          "statement": "лошо has 3 different vowels"
+        },
+        "correct": "false",
+        "tips": ["лошо has О twice, so only 2 different vowels: О and О"]
+      },
+      {
+        "id": "ex95",
+        "kind": "order_words",
+        "prompt": "Order from positive to negative meaning:",
+        "promptLang": "en",
+        "data": {
+          "words": ["лошо", "добро"]
+        },
+        "correct": ["добро", "лошо"]
+      },
+      {
+        "id": "ex96",
+        "kind": "type",
+        "prompt": "Type 'тяло' (body):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "тяло"
+      }
+    ],
+    "vocab": ["my-feminine", "good-neuter", "bad-neuter", "big-neuter", "small-neuter", "body"]
+  },
+  {
+    "id": "vowels-11",
+    "title": "Common Vowel Patterns",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-10"],
+    "exercises": [
+      {
+        "id": "ex97",
+        "kind": "multiple_choice",
+        "prompt": "Which pattern is most common in Bulgarian: vowel + vowel or consonant + vowel?",
+        "promptLang": "en",
+        "data": {
+          "options": ["vowel + vowel", "consonant + vowel", "both equally", "neither"]
+        },
+        "correct": "consonant + vowel"
+      },
+      {
+        "id": "ex98",
+        "kind": "select_letters",
+        "prompt": "Build the word 'идея' (idea):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["И", "Д", "Е", "Я", "и", "д", "е", "я"],
+          "targetWord": "идея"
+        },
+        "correct": ["и", "д", "е", "я"]
+      },
+      {
+        "id": "ex99",
+        "kind": "match_pairs",
+        "prompt": "Match words with vowel patterns:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["идея", "театър", "океан", "музей"],
+          "rightItems": ["museum", "ocean", "idea", "theater"]
+        },
+        "correct": ["идея:idea", "театър:theater", "океан:ocean", "музей:museum"]
+      },
+      {
+        "id": "ex100",
+        "kind": "type",
+        "prompt": "Type 'театър' (theater):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "театър"
+      },
+      {
+        "id": "ex101",
+        "kind": "flashcard",
+        "prompt": "Learn this cultural word:",
+        "promptLang": "en",
+        "data": {
+          "front": "музей",
+          "back": "museum"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex102",
+        "kind": "true_false",
+        "prompt": "The word 'идея' has four vowels in a row.",
+        "promptLang": "en",
+        "data": {
+          "statement": "идея has 4 consecutive vowels"
+        },
+        "correct": "false",
+        "tips": ["идея has И-Д-Е-Я, with Д breaking the vowel sequence"]
+      },
+      {
+        "id": "ex103",
+        "kind": "order_words",
+        "prompt": "Order by number of vowels (fewest to most):",
+        "promptLang": "en",
+        "data": {
+          "words": ["идея", "театър", "океан", "музей"]
+        },
+        "correct": ["идея", "музей", "океан", "театър"]
+      },
+      {
+        "id": "ex104",
+        "kind": "multiple_choice",
+        "prompt": "Which word contains the Ъ vowel?",
+        "promptLang": "en",
+        "data": {
+          "options": ["идея", "театър", "океан", "музей"]
+        },
+        "correct": "театър"
+      }
+    ],
+    "vocab": ["idea", "theater", "ocean", "museum"]
+  },
+  {
+    "id": "vowels-12",
+    "title": "Vowels in Action Words",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-11"],
+    "exercises": [
+      {
+        "id": "ex105",
+        "kind": "type",
+        "prompt": "Type 'чета' (I read):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "чета"
+      },
+      {
+        "id": "ex106",
+        "kind": "match_pairs",
+        "prompt": "Match verbs with their meanings:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["чета", "пиша", "говоря", "слушам"],
+          "rightItems": ["listen", "read", "speak", "write"]
+        },
+        "correct": ["чета:read", "пиша:write", "говоря:speak", "слушам:listen"]
+      },
+      {
+        "id": "ex107",
+        "kind": "select_letters",
+        "prompt": "Build the word 'играя' (I play):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["И", "Г", "Р", "А", "Я", "и", "г", "р", "а", "я"],
+          "targetWord": "играя"
+        },
+        "correct": ["и", "г", "р", "а", "я"]
+      },
+      {
+        "id": "ex108",
+        "kind": "flashcard",
+        "prompt": "Learn this action verb:",
+        "promptLang": "en",
+        "data": {
+          "front": "пиша",
+          "back": "I write"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex109",
+        "kind": "multiple_choice",
+        "prompt": "Which verb means 'I speak'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["чета", "пиша", "говоря", "слушам"]
+        },
+        "correct": "говоря"
+      },
+      {
+        "id": "ex110",
+        "kind": "true_false",
+        "prompt": "All Bulgarian verbs in first person end with a vowel.",
+        "promptLang": "en",
+        "data": {
+          "statement": "All 1st person verbs end with vowel"
+        },
+        "correct": "false",
+        "tips": ["Some verbs like 'слушам' end with consonant М"]
+      },
+      {
+        "id": "ex111",
+        "kind": "order_words",
+        "prompt": "Order these learning activities logically:",
+        "promptLang": "en",
+        "data": {
+          "words": ["пиша", "чета", "слушам", "говоря"]
+        },
+        "correct": ["слушам", "чета", "говоря", "пиша"]
+      },
+      {
+        "id": "ex112",
+        "kind": "type",
+        "prompt": "Type 'обичам' (I love):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "обичам"
+      }
+    ],
+    "vocab": ["read-verb", "write-verb", "speak-verb", "listen-verb", "play-verb", "love-verb"]
+  },
+  {
+    "id": "vowels-13",
+    "title": "Vowels in Daily Life",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-12"],
+    "exercises": [
+      {
+        "id": "ex113",
+        "kind": "match_pairs",
+        "prompt": "Match daily activities:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["ям", "пия", "спя", "работя"],
+          "rightItems": ["sleep", "work", "eat", "drink"]
+        },
+        "correct": ["ям:eat", "пия:drink", "спя:sleep", "работя:work"]
+      },
+      {
+        "id": "ex114",
+        "kind": "select_letters",
+        "prompt": "Build the word 'учá' (I study/learn):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["У", "Ч", "А", "у", "ч", "а"],
+          "targetWord": "уча"
+        },
+        "correct": ["у", "ч", "а"]
+      },
+      {
+        "id": "ex115",
+        "kind": "type",
+        "prompt": "Type 'живея' (I live):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "живея"
+      },
+      {
+        "id": "ex116",
+        "kind": "flashcard",
+        "prompt": "Learn this essential verb:",
+        "promptLang": "en",
+        "data": {
+          "front": "ям",
+          "back": "I eat"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex117",
+        "kind": "multiple_choice",
+        "prompt": "Which activity do you do at night?",
+        "promptLang": "en",
+        "data": {
+          "options": ["ям", "пия", "спя", "работя"]
+        },
+        "correct": "спя"
+      },
+      {
+        "id": "ex118",
+        "kind": "true_false",
+        "prompt": "The verb 'уча' has two vowels.",
+        "promptLang": "en",
+        "data": {
+          "statement": "уча has 2 vowels"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex119",
+        "kind": "order_words",
+        "prompt": "Order a typical day's activities:",
+        "promptLang": "en",
+        "data": {
+          "words": ["спя", "работя", "ям", "уча"]
+        },
+        "correct": ["ям", "уча", "работя", "спя"]
+      },
+      {
+        "id": "ex120",
+        "kind": "multiple_choice",
+        "prompt": "What does 'пия' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["sing", "drink", "dance", "run"]
+        },
+        "correct": "drink"
+      }
+    ],
+    "vocab": ["eat-verb", "drink-verb", "sleep-verb", "work-verb", "study-verb", "live-verb"]
+  },
+  {
+    "id": "vowels-14",
+    "title": "Complex Vowel Words",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-13"],
+    "exercises": [
+      {
+        "id": "ex121",
+        "kind": "type",
+        "prompt": "Type 'автомобил' (automobile):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "автомобил"
+      },
+      {
+        "id": "ex122",
+        "kind": "select_letters",
+        "prompt": "Build the word 'република' (republic):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Р", "Е", "П", "У", "Б", "Л", "И", "К", "А", "р", "е", "п", "у", "б", "л", "и", "к", "а"],
+          "targetWord": "република"
+        },
+        "correct": ["р", "е", "п", "у", "б", "л", "и", "к", "а"]
+      },
+      {
+        "id": "ex123",
+        "kind": "match_pairs",
+        "prompt": "Match complex words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["автомобил", "република", "университет", "информация"],
+          "rightItems": ["information", "university", "automobile", "republic"]
+        },
+        "correct": ["автомобил:automobile", "република:republic", "университет:university", "информация:information"]
+      },
+      {
+        "id": "ex124",
+        "kind": "flashcard",
+        "prompt": "Learn this modern word:",
+        "promptLang": "en",
+        "data": {
+          "front": "информация",
+          "back": "information"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex125",
+        "kind": "multiple_choice",
+        "prompt": "Which word has the most vowels?",
+        "promptLang": "en",
+        "data": {
+          "options": ["автомобил", "република", "университет", "информация"]
+        },
+        "correct": "информация",
+        "tips": ["информация has 6 vowels: и-о-а-и-я"]
+      },
+      {
+        "id": "ex126",
+        "kind": "true_false",
+        "prompt": "The word 'университет' contains all 6 Bulgarian vowels.",
+        "promptLang": "en",
+        "data": {
+          "statement": "университет has all 6 vowels"
+        },
+        "correct": "false",
+        "tips": ["университет has У-И-Е-И-Е but missing А, О, Ъ"]
+      },
+      {
+        "id": "ex127",
+        "kind": "order_words",
+        "prompt": "Order by number of syllables (fewest to most):",
+        "promptLang": "en",
+        "data": {
+          "words": ["автомобил", "република", "университет", "информация"]
+        },
+        "correct": ["автомобил", "република", "информация", "университет"]
+      },
+      {
+        "id": "ex128",
+        "kind": "type",
+        "prompt": "Type 'образование' (education):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "образование"
+      }
+    ],
+    "vocab": ["automobile", "republic", "university", "information", "education"]
+  },
+  {
+    "id": "vowels-15",
+    "title": "Mastering All Vowel Sounds", 
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-14"],
+    "exercises": [
+      {
+        "id": "ex129",
+        "kind": "order_words",
+        "prompt": "Put all 8 vowel letters in Bulgarian alphabetical order:",
+        "promptLang": "en",
+        "data": {
+          "words": ["Ю", "Ъ", "А", "Я", "И", "Е", "О", "У"]
+        },
+        "correct": ["А", "Е", "И", "О", "У", "Ъ", "Ю", "Я"]
+      },
+      {
+        "id": "ex130",
+        "kind": "match_pairs",
+        "prompt": "Match each vowel to its sound:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["А", "Е", "И", "О", "У", "Ъ", "Ю", "Я"],
+          "rightItems": ["ya", "yu", "uh", "oo", "oh", "ee", "eh", "ah"]
+        },
+        "correct": ["А:ah", "Е:eh", "И:ee", "О:oh", "У:oo", "Ъ:uh", "Ю:yu", "Я:ya"]
+      },
+      {
+        "id": "ex131",
+        "kind": "multiple_choice", 
+        "prompt": "Which vowel is called 'er goliam' (big yer)?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Ъ", "Ь", "Ю", "Я"]
+        },
+        "correct": "Ъ"
+      },
+      {
+        "id": "ex132",
+        "kind": "flashcard",
+        "prompt": "Review this unique Bulgarian vowel:",
+        "promptLang": "en",
+        "data": {
+          "front": "Ъ - er goliam",
+          "back": "The most frequent vowel in Bulgarian, sounds like 'uh'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex133",
+        "kind": "true_false",
+        "prompt": "Bulgarian has exactly 6 core vowel sounds.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Bulgarian has 6 core vowels"
+        },
+        "correct": "true",
+        "tips": ["А, Е, И, О, У, Ъ are the 6 core vowels. Ю and Я are combinations."]
+      },
+      {
+        "id": "ex134",
+        "kind": "select_letters",
+        "prompt": "Build a word using all vowel types 'абсолютно' (absolutely):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["А", "Б", "С", "О", "Л", "Ю", "Т", "Н", "О", "а", "б", "с", "о", "л", "ю", "т", "н", "о"],
+          "targetWord": "абсолютно"
+        },
+        "correct": ["а", "б", "с", "о", "л", "ю", "т", "н", "о"]
+      },
+      {
+        "id": "ex135",
+        "kind": "type",
+        "prompt": "Type 'европейски' (European):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "европейски"
+      },
+      {
+        "id": "ex136",
+        "kind": "multiple_choice",
+        "prompt": "Which pair represents the 'soft' vowels?",
+        "promptLang": "en",
+        "data": {
+          "options": ["А-О", "Е-И", "Ю-Я", "У-Ъ"]
+        },
+        "correct": "Ю-Я"
+      }
+    ],
+    "vocab": ["absolutely", "european"]
+  },
+  {
+    "id": "vowels-16",
+    "title": "Vowel Mastery Test",
+    "unitId": "alphabet-vowels",
+    "prerequisites": ["vowels-15"],
+    "exercises": [
+      {
+        "id": "ex137",
+        "kind": "type",
+        "prompt": "Type the name of Bulgaria in Bulgarian:",
+        "promptLang": "en",
+        "data": {},
+        "correct": "България"
+      },
+      {
+        "id": "ex138",
+        "kind": "multiple_choice",
+        "prompt": "How many different vowels appear in 'България'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["3", "4", "5", "6"]
+        },
+        "correct": "4",
+        "tips": ["България has Ъ, Л, Г, А, Р, И, Я - vowels are Ъ, А, И, Я"]
+      },
+      {
+        "id": "ex139",
+        "kind": "match_pairs",
+        "prompt": "Final vowel sound review:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["hard vowels", "soft vowels", "schwa sound", "rounded vowels"],
+          "rightItems": ["У-О", "Ю-Я", "А-Е-И", "Ъ"]
+        },
+        "correct": ["hard vowels:А-Е-И", "soft vowels:Ю-Я", "schwa sound:Ъ", "rounded vowels:У-О"]
+      },
+      {
+        "id": "ex140",
+        "kind": "select_letters",
+        "prompt": "Build 'заповед' (command/order):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["З", "А", "П", "О", "В", "Е", "Д", "з", "а", "п", "о", "в", "е", "д"],
+          "targetWord": "заповед"
+        },
+        "correct": ["з", "а", "п", "о", "в", "е", "д"]
+      },
+      {
+        "id": "ex141",
+        "kind": "flashcard",
+        "prompt": "Master this final concept:",
+        "promptLang": "en",
+        "data": {
+          "front": "Bulgarian Vowel System",
+          "back": "6 core vowels (А,Е,И,О,У,Ъ) + 2 soft combinations (Ю,Я)"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex142",
+        "kind": "true_false",
+        "prompt": "You have now learned all the vowel sounds in Bulgarian.",
+        "promptLang": "en",
+        "data": {
+          "statement": "All Bulgarian vowels learned"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex143",
+        "kind": "order_words",
+        "prompt": "Order these words by complexity (simplest to most complex):",
+        "promptLang": "en",
+        "data": {
+          "words": ["България", "аз", "майка", "европейски"]
+        },
+        "correct": ["аз", "майка", "България", "европейски"]
+      },
+      {
+        "id": "ex144",
+        "kind": "type",
+        "prompt": "Type 'поздравления' (congratulations):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "поздравления"
+      }
+    ],
+    "vocab": ["bulgaria", "command", "congratulations"]
+  },
+  {
     "id": "consonants-1",
     "title": "Easy Consonants: М, Н, Л, Р",
     "unitId": "alphabet-consonants-1",
@@ -631,5 +1715,2652 @@
       }
     ],
     "vocab": ["how-are-you", "fine-thanks", "what-name", "my-name-is", "nice-to-meet"]
+  },
+  {
+    "id": "consonants-5",
+    "title": "Strong Consonants: П, Т, К",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["consonants-4"],
+    "exercises": [
+      {
+        "id": "ex145",
+        "kind": "multiple_choice",
+        "prompt": "Which letter looks like Greek pi (π)?",
+        "promptLang": "en",
+        "data": {
+          "options": ["П", "Т", "К", "Р"]
+        },
+        "correct": "П",
+        "tips": ["П makes the 'p' sound and looks like π"]
+      },
+      {
+        "id": "ex146",
+        "kind": "match_pairs",
+        "prompt": "Match letters to their sounds:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["П", "Т", "К"],
+          "rightItems": ["k", "t", "p"]
+        },
+        "correct": ["П:p", "Т:t", "К:k"]
+      },
+      {
+        "id": "ex147",
+        "kind": "select_letters",
+        "prompt": "Build the word 'топ' (top):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Т", "О", "П", "К", "т", "о", "п"],
+          "targetWord": "топ"
+        },
+        "correct": ["т", "о", "п"]
+      },
+      {
+        "id": "ex148",
+        "kind": "type",
+        "prompt": "Type 'кот' (cat):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "кот"
+      },
+      {
+        "id": "ex149",
+        "kind": "flashcard",
+        "prompt": "Learn this consonant:",
+        "promptLang": "en",
+        "data": {
+          "front": "К",
+          "back": "sounds like 'k' - identical to English K"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex150",
+        "kind": "true_false",
+        "prompt": "The letter Т is identical to English T.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Т looks like English T"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex151",
+        "kind": "order_words",
+        "prompt": "Order these letters alphabetically:",
+        "promptLang": "en",
+        "data": {
+          "words": ["Т", "К", "П"]
+        },
+        "correct": ["К", "П", "Т"]
+      },
+      {
+        "id": "ex152",
+        "kind": "multiple_choice",
+        "prompt": "What does 'кот' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["dog", "cat", "bird", "fish"]
+        },
+        "correct": "cat"
+      }
+    ],
+    "vocab": ["top", "cat", "pat"]
+  },
+  {
+    "id": "consonants-6",
+    "title": "Soft Consonants: С, З",
+    "unitId": "alphabet-consonants-1", 
+    "prerequisites": ["consonants-5"],
+    "exercises": [
+      {
+        "id": "ex153",
+        "kind": "multiple_choice",
+        "prompt": "Which letter looks like the number 3?",
+        "promptLang": "en",
+        "data": {
+          "options": ["С", "З", "Е", "В"]
+        },
+        "correct": "З",
+        "tips": ["З looks like 3 but sounds like 'z'"]
+      },
+      {
+        "id": "ex154",
+        "kind": "flashcard",
+        "prompt": "Learn this tricky letter:",
+        "promptLang": "en",
+        "data": {
+          "front": "С",
+          "back": "looks like English C but sounds like 's'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex155",
+        "kind": "select_letters",
+        "prompt": "Build the word 'сок' (juice):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["С", "О", "К", "З", "с", "о", "к"],
+          "targetWord": "сок"
+        },
+        "correct": ["с", "о", "к"]
+      },
+      {
+        "id": "ex156",
+        "kind": "type",
+        "prompt": "Type 'зуб' (tooth):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "зуб"
+      },
+      {
+        "id": "ex157",
+        "kind": "match_pairs",
+        "prompt": "Match words with their meanings:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["сок", "зуб", "сол", "зоо"],
+          "rightItems": ["zoo", "salt", "juice", "tooth"]
+        },
+        "correct": ["сок:juice", "зуб:tooth", "сол:salt", "зоо:zoo"]
+      },
+      {
+        "id": "ex158",
+        "kind": "true_false",
+        "prompt": "The letter С makes the 'k' sound.",
+        "promptLang": "en",
+        "data": {
+          "statement": "С sounds like 'k'"
+        },
+        "correct": "false",
+        "tips": ["С looks like C but sounds like 's'"]
+      },
+      {
+        "id": "ex159",
+        "kind": "order_words",
+        "prompt": "Order these words alphabetically:",
+        "promptLang": "en",
+        "data": {
+          "words": ["зуб", "сок", "зоо", "сол"]
+        },
+        "correct": ["зоо", "зуб", "сок", "сол"]
+      },
+      {
+        "id": "ex160",
+        "kind": "multiple_choice",
+        "prompt": "Which word contains both С and О?",
+        "promptLang": "en",
+        "data": {
+          "options": ["зуб", "сок", "зоо", "сол"]
+        },
+        "correct": "сок"
+      }
+    ],
+    "vocab": ["juice", "tooth", "salt", "zoo"]
+  },
+  {
+    "id": "consonants-7",
+    "title": "Rolling R and Flowing L",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["consonants-6"],
+    "exercises": [
+      {
+        "id": "ex161",
+        "kind": "flashcard",
+        "prompt": "Master the rolled R:",
+        "promptLang": "en",
+        "data": {
+          "front": "Р",
+          "back": "looks like English P but sounds like rolled 'r'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex162",
+        "kind": "multiple_choice",
+        "prompt": "Which letter looks like an upside-down V?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Р", "Л", "М", "Н"]
+        },
+        "correct": "Л"
+      },
+      {
+        "id": "ex163",
+        "kind": "select_letters",
+        "prompt": "Build the word 'рало' (plow):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Р", "А", "Л", "О", "р", "а", "л", "о"],
+          "targetWord": "рало"
+        },
+        "correct": ["р", "а", "л", "о"]
+      },
+      {
+        "id": "ex164",
+        "kind": "type",
+        "prompt": "Type 'лира' (lyre):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "лира"
+      },
+      {
+        "id": "ex165",
+        "kind": "match_pairs",
+        "prompt": "Match R and L words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["рало", "лира", "рука", "лале"],
+          "rightItems": ["tulip", "hand", "plow", "lyre"]
+        },
+        "correct": ["рало:plow", "лира:lyre", "рука:hand", "лале:tulip"]
+      },
+      {
+        "id": "ex166",
+        "kind": "true_false",
+        "prompt": "Bulgarian Р is rolled stronger than English R.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Bulgarian Р is strongly rolled"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex167",
+        "kind": "order_words",
+        "prompt": "Order by number of R sounds:",
+        "promptLang": "en",
+        "data": {
+          "words": ["лира", "рало", "лале", "рука"]
+        },
+        "correct": ["лале", "лира", "рука", "рало"]
+      },
+      {
+        "id": "ex168",
+        "kind": "multiple_choice",
+        "prompt": "What does 'рука' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["foot", "hand", "head", "back"]
+        },
+        "correct": "hand"
+      }
+    ],
+    "vocab": ["plow", "lyre", "hand", "tulip"]
+  },
+  {
+    "id": "consonants-8",
+    "title": "Nasal Sounds: М, Н",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["consonants-7"],
+    "exercises": [
+      {
+        "id": "ex169",
+        "kind": "multiple_choice",
+        "prompt": "Which letter looks like English H but sounds like 'n'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["М", "Н", "П", "И"]
+        },
+        "correct": "Н",
+        "tips": ["Н looks like H but makes 'n' sound"]
+      },
+      {
+        "id": "ex170",
+        "kind": "flashcard",
+        "prompt": "Review this familiar letter:",
+        "promptLang": "en",
+        "data": {
+          "front": "М",
+          "back": "identical to English M - sounds like 'm'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex171",
+        "kind": "select_letters",
+        "prompt": "Build the word 'нома' (take):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Н", "О", "М", "А", "н", "о", "м", "а"],
+          "targetWord": "нома"
+        },
+        "correct": ["н", "о", "м", "а"]
+      },
+      {
+        "id": "ex172",
+        "kind": "type",
+        "prompt": "Type 'мама' (mama):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "мама"
+      },
+      {
+        "id": "ex173",
+        "kind": "match_pairs",
+        "prompt": "Match family words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["мама", "нана", "мамо", "нене"],
+          "rightItems": ["baby", "mommy", "mama", "nanny"]
+        },
+        "correct": ["мама:mama", "нана:nanny", "мамо:mommy", "нене:baby"]
+      },
+      {
+        "id": "ex174",
+        "kind": "true_false",
+        "prompt": "Both М and Н are nasal consonants.",
+        "promptLang": "en",
+        "data": {
+          "statement": "М and Н are nasal sounds"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex175",
+        "kind": "order_words",
+        "prompt": "Order these words by length:",
+        "promptLang": "en",
+        "data": {
+          "words": ["мама", "нана", "мамо", "нене"]
+        },
+        "correct": ["мама", "нана", "мамо", "нене"]
+      },
+      {
+        "id": "ex176",
+        "kind": "multiple_choice",
+        "prompt": "Which word has both М and Н sounds?",
+        "promptLang": "en",
+        "data": {
+          "options": ["мама", "нана", "минa", "моно"]
+        },
+        "correct": "минa"
+      }
+    ],
+    "vocab": ["take", "mama", "nanny", "mommy", "baby", "mine"]
+  },
+  {
+    "id": "consonants-9",
+    "title": "Hard Consonants: Ф, Х",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["consonants-8"],
+    "exercises": [
+      {
+        "id": "ex177",
+        "kind": "multiple_choice",
+        "prompt": "Which letter looks like Greek phi (φ)?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Ф", "Х", "П", "Р"]
+        },
+        "correct": "Ф",
+        "tips": ["Ф looks like φ and sounds like 'f'"]
+      },
+      {
+        "id": "ex178",
+        "kind": "flashcard",
+        "prompt": "Learn this breathy consonant:",
+        "promptLang": "en",
+        "data": {
+          "front": "Х",
+          "back": "looks like English X but sounds like 'ch' in 'Bach'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex179",
+        "kind": "select_letters",
+        "prompt": "Build the word 'хала' (hall):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Х", "А", "Л", "А", "х", "а", "л", "а"],
+          "targetWord": "хала"
+        },
+        "correct": ["х", "а", "л", "а"]
+      },
+      {
+        "id": "ex180",
+        "kind": "type",
+        "prompt": "Type 'фото' (photo):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "фото"
+      },
+      {
+        "id": "ex181",
+        "kind": "match_pairs",
+        "prompt": "Match Ф and Х words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["фото", "хала", "форма", "химия"],
+          "rightItems": ["chemistry", "form", "hall", "photo"]
+        },
+        "correct": ["фото:photo", "хала:hall", "форма:form", "химия:chemistry"]
+      },
+      {
+        "id": "ex182",
+        "kind": "true_false",
+        "prompt": "The letter Х sounds like English 'x'.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Х sounds like English 'x'"
+        },
+        "correct": "false",
+        "tips": ["Х sounds like 'ch' in German 'Bach', not like English 'x'"]
+      },
+      {
+        "id": "ex183",
+        "kind": "order_words",
+        "prompt": "Order by number of syllables:",
+        "promptLang": "en",
+        "data": {
+          "words": ["фото", "хала", "форма", "химия"]
+        },
+        "correct": ["хала", "фото", "форма", "химия"]
+      },
+      {
+        "id": "ex184",
+        "kind": "multiple_choice",
+        "prompt": "Which word is related to science?",
+        "promptLang": "en",
+        "data": {
+          "options": ["фото", "хала", "форма", "химия"]
+        },
+        "correct": "химия"
+      }
+    ],
+    "vocab": ["photo", "hall", "form", "chemistry"]
+  },
+  {
+    "id": "consonants-10",
+    "title": "Complex Sounds: Ж, Ш, Ч",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["consonants-9"],
+    "exercises": [
+      {
+        "id": "ex185",
+        "kind": "multiple_choice",
+        "prompt": "Which letter looks like a snowflake or spider?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Ж", "Ш", "Ч", "Щ"]
+        },
+        "correct": "Ж",
+        "tips": ["Ж looks like a snowflake and sounds like 'zh'"]
+      },
+      {
+        "id": "ex186",
+        "kind": "flashcard",
+        "prompt": "Master this 'sh' sound:",
+        "promptLang": "en",
+        "data": {
+          "front": "Ш",
+          "back": "looks like W with three legs, sounds like 'sh'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex187",
+        "kind": "match_pairs",
+        "prompt": "Match letters to their sounds:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["Ж", "Ш", "Ч"],
+          "rightItems": ["ch", "zh", "sh"]
+        },
+        "correct": ["Ж:zh", "Ш:sh", "Ч:ch"]
+      },
+      {
+        "id": "ex188",
+        "kind": "select_letters",
+        "prompt": "Build the word 'жаба' (frog):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Ж", "А", "Б", "А", "ж", "а", "б", "а"],
+          "targetWord": "жаба"
+        },
+        "correct": ["ж", "а", "б", "а"]
+      },
+      {
+        "id": "ex189",
+        "kind": "type",
+        "prompt": "Type 'шапка' (hat):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "шапка"
+      },
+      {
+        "id": "ex190",
+        "kind": "multiple_choice",
+        "prompt": "Which letter looks like the number 4?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Ж", "Ш", "Ч", "Щ"]
+        },
+        "correct": "Ч"
+      },
+      {
+        "id": "ex191",
+        "kind": "true_false",
+        "prompt": "The word 'чай' contains the Ч sound.",
+        "promptLang": "en",
+        "data": {
+          "statement": "чай has Ч sound"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex192",
+        "kind": "order_words",
+        "prompt": "Order these animals alphabetically:",
+        "promptLang": "en",
+        "data": {
+          "words": ["жаба", "чапла", "шарка"]
+        },
+        "correct": ["жаба", "чапла", "шарка"]
+      }
+    ],
+    "vocab": ["frog", "hat", "tea", "heron", "pike"]
+  },
+  {
+    "id": "consonants-11",
+    "title": "Tricky Ts and Sh: Ц, Щ",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["consonants-10"],
+    "exercises": [
+      {
+        "id": "ex193",
+        "kind": "multiple_choice",
+        "prompt": "Which letter has a little tail at the bottom right?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Ц", "Щ", "Ч", "Ш"]
+        },
+        "correct": "Ц",
+        "tips": ["Ц looks like И with a tail and sounds like 'ts'"]
+      },
+      {
+        "id": "ex194",
+        "kind": "flashcard",
+        "prompt": "Learn this complex sound:",
+        "promptLang": "en",
+        "data": {
+          "front": "Щ",
+          "back": "Ш with a tail - sounds like 'sht'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex195",
+        "kind": "select_letters",
+        "prompt": "Build the word 'цена' (price):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Ц", "Е", "Н", "А", "ц", "е", "н", "а"],
+          "targetWord": "цена"
+        },
+        "correct": ["ц", "е", "н", "а"]
+      },
+      {
+        "id": "ex196",
+        "kind": "type",
+        "prompt": "Type 'нощ' (night):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "нощ"
+      },
+      {
+        "id": "ex197",
+        "kind": "match_pairs",
+        "prompt": "Match Ц and Щ words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["цена", "нощ", "цвят", "щастие"],
+          "rightItems": ["happiness", "color", "price", "night"]
+        },
+        "correct": ["цена:price", "нощ:night", "цвят:color", "щастие:happiness"]
+      },
+      {
+        "id": "ex198",
+        "kind": "true_false",
+        "prompt": "The letter Ц sounds like English 'k'.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Ц sounds like 'k'"
+        },
+        "correct": "false",
+        "tips": ["Ц sounds like 'ts', not 'k'"]
+      },
+      {
+        "id": "ex199",
+        "kind": "order_words",
+        "prompt": "Order by difficulty to pronounce:",
+        "promptLang": "en",
+        "data": {
+          "words": ["цена", "нощ", "цвят", "щастие"]
+        },
+        "correct": ["цена", "цвят", "нощ", "щастие"]
+      },
+      {
+        "id": "ex200",
+        "kind": "multiple_choice",
+        "prompt": "Which word means 'happiness'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["цена", "нощ", "цвят", "щастие"]
+        },
+        "correct": "щастие"
+      }
+    ],
+    "vocab": ["price", "night", "color", "happiness"]
+  },
+  {
+    "id": "consonants-12",
+    "title": "Consonant Clusters: БР, ПР, ТР",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["consonants-11"],
+    "exercises": [
+      {
+        "id": "ex201",
+        "kind": "select_letters",
+        "prompt": "Build the word 'брат' (brother):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Б", "Р", "А", "Т", "б", "р", "а", "т"],
+          "targetWord": "брат"
+        },
+        "correct": ["б", "р", "а", "т"]
+      },
+      {
+        "id": "ex202",
+        "kind": "type",
+        "prompt": "Type 'труд' (work):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "труд"
+      },
+      {
+        "id": "ex203",
+        "kind": "match_pairs",
+        "prompt": "Match cluster words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["брат", "труд", "прст", "крак"],
+          "rightItems": ["finger", "work", "brother", "leg"]
+        },
+        "correct": ["брат:brother", "труд:work", "прст:finger", "крак:leg"]
+      },
+      {
+        "id": "ex204",
+        "kind": "flashcard",
+        "prompt": "Practice this cluster:",
+        "promptLang": "en",
+        "data": {
+          "front": "БР-",
+          "back": "like 'br' in 'brother' - брат, брада, бронз"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex205",
+        "kind": "multiple_choice",
+        "prompt": "Which word starts with ТР cluster?",
+        "promptLang": "en",
+        "data": {
+          "options": ["брат", "труд", "прст", "крак"]
+        },
+        "correct": "труд"
+      },
+      {
+        "id": "ex206",
+        "kind": "true_false",
+        "prompt": "Consonant clusters are common in Bulgarian.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Bulgarian has many consonant clusters"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex207",
+        "kind": "order_words",
+        "prompt": "Order by number of consonant clusters:",
+        "promptLang": "en",
+        "data": {
+          "words": ["брат", "труд", "прст", "крак"]
+        },
+        "correct": ["брат", "труд", "крак", "прст"]
+      },
+      {
+        "id": "ex208",
+        "kind": "select_letters",
+        "prompt": "Build the word 'прст' (finger):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["П", "Р", "С", "Т", "п", "р", "с", "т"],
+          "targetWord": "прст"
+        },
+        "correct": ["п", "р", "с", "т"]
+      }
+    ],
+    "vocab": ["brother", "work", "finger", "leg"]
+  },
+  {
+    "id": "consonants-13",
+    "title": "Double Consonants",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["consonants-12"],
+    "exercises": [
+      {
+        "id": "ex209",
+        "kind": "type",
+        "prompt": "Type 'масса' (mass):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "масса"
+      },
+      {
+        "id": "ex210",
+        "kind": "multiple_choice",
+        "prompt": "Which word has double consonants?",
+        "promptLang": "en",
+        "data": {
+          "options": ["маса", "касса", "роса", "база"]
+        },
+        "correct": "касса"
+      },
+      {
+        "id": "ex211",
+        "kind": "match_pairs",
+        "prompt": "Match double consonant words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["касса", "класс", "массa", "пасса"],
+          "rightItems": ["passage", "mass", "cash register", "class"]
+        },
+        "correct": ["касса:cash register", "класс:class", "массa:mass", "пасса:passage"]
+      },
+      {
+        "id": "ex212",
+        "kind": "flashcard",
+        "prompt": "Learn double consonant rule:",
+        "promptLang": "en",
+        "data": {
+          "front": "Double Consonants",
+          "back": "Often found in borrowed words from other languages"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex213",
+        "kind": "select_letters",
+        "prompt": "Build the word 'класс' (class):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["К", "Л", "А", "С", "С", "к", "л", "а", "с", "с"],
+          "targetWord": "класс"
+        },
+        "correct": ["к", "л", "а", "с", "с"]
+      },
+      {
+        "id": "ex214",
+        "kind": "true_false",
+        "prompt": "Double consonants are rare in Bulgarian.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Double consonants are uncommon"
+        },
+        "correct": "true",
+        "tips": ["They appear mainly in borrowed foreign words"]
+      },
+      {
+        "id": "ex215",
+        "kind": "order_words",
+        "prompt": "Order by number of syllables:",
+        "promptLang": "en",
+        "data": {
+          "words": ["касса", "класс", "массa", "пасса"]
+        },
+        "correct": ["класс", "касса", "массa", "пасса"]
+      },
+      {
+        "id": "ex216",
+        "kind": "multiple_choice",
+        "prompt": "What does 'класс' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["cash", "mass", "class", "pass"]
+        },
+        "correct": "class"
+      }
+    ],
+    "vocab": ["cash-register", "class", "mass", "passage"]
+  },
+  {
+    "id": "consonants-14",
+    "title": "Silent Letters and Soft Signs",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["consonants-13"],
+    "exercises": [
+      {
+        "id": "ex217",
+        "kind": "flashcard",
+        "prompt": "Learn about the soft sign:",
+        "promptLang": "en",
+        "data": {
+          "front": "Ь (soft sign)",
+          "back": "Makes preceding consonant soft - doesn't make sound itself"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex218",
+        "kind": "type",
+        "prompt": "Type 'ден' (day):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "ден"
+      },
+      {
+        "id": "ex219",
+        "kind": "multiple_choice",
+        "prompt": "Which letter softens consonants?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Ъ", "Ь", "Й", "Я"]
+        },
+        "correct": "Ь"
+      },
+      {
+        "id": "ex220",
+        "kind": "select_letters",
+        "prompt": "Build the word 'осем' (eight):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["О", "С", "Е", "М", "о", "с", "е", "м"],
+          "targetWord": "осем"
+        },
+        "correct": ["о", "с", "е", "м"]
+      },
+      {
+        "id": "ex221",
+        "kind": "match_pairs",
+        "prompt": "Match soft consonant words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["ден", "сол", "кон", "сън"],
+          "rightItems": ["sleep", "horse", "day", "salt"]
+        },
+        "correct": ["ден:day", "сол:salt", "кон:horse", "сън:sleep"]
+      },
+      {
+        "id": "ex222",
+        "kind": "true_false",
+        "prompt": "The soft sign Ь makes its own sound.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Ь produces sound"
+        },
+        "correct": "false",
+        "tips": ["Ь only softens the consonant before it"]
+      },
+      {
+        "id": "ex223",
+        "kind": "order_words",
+        "prompt": "Order by time of day:",
+        "promptLang": "en",
+        "data": {
+          "words": ["нощ", "ден", "утро", "вечер"]
+        },
+        "correct": ["утро", "ден", "вечер", "нощ"]
+      },
+      {
+        "id": "ex224",
+        "kind": "multiple_choice",
+        "prompt": "What does 'сън' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["sun", "son", "sleep", "song"]
+        },
+        "correct": "sleep"
+      }
+    ],
+    "vocab": ["day", "salt", "horse", "sleep"]
+  },
+  {
+    "id": "consonants-15",
+    "title": "Consonant Review: Easy Pairs",
+    "unitId": "alphabet-consonants-1", 
+    "prerequisites": ["consonants-14"],
+    "exercises": [
+      {
+        "id": "ex225",
+        "kind": "match_pairs",
+        "prompt": "Match look-alike letters to sounds:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["В (looks like B)", "Н (looks like H)", "Р (looks like P)", "С (looks like C)"],
+          "rightItems": ["s", "r", "v", "n"]
+        },
+        "correct": ["В (looks like B):v", "Н (looks like H):n", "Р (looks like P):r", "С (looks like C):s"]
+      },
+      {
+        "id": "ex226",
+        "kind": "multiple_choice",
+        "prompt": "Which letter pair both look like English letters but sound different?",
+        "promptLang": "en",
+        "data": {
+          "options": ["М-Н", "В-С", "К-Т", "Б-Д"]
+        },
+        "correct": "В-С",
+        "tips": ["В looks like B but sounds like 'v', С looks like C but sounds like 's'"]
+      },
+      {
+        "id": "ex227",
+        "kind": "flashcard",
+        "prompt": "Review tricky pairs:",
+        "promptLang": "en",
+        "data": {
+          "front": "False Friends",
+          "back": "Letters that look like English but sound different: В, Н, Р, С"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex228",
+        "kind": "select_letters",
+        "prompt": "Build the word 'нос' (nose):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Н", "О", "С", "М", "н", "о", "с"],
+          "targetWord": "нос"
+        },
+        "correct": ["н", "о", "с"]
+      },
+      {
+        "id": "ex229",
+        "kind": "type",
+        "prompt": "Type 'врат' (neck):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "врат"
+      },
+      {
+        "id": "ex230",
+        "kind": "true_false",
+        "prompt": "In Bulgarian, Р sounds like English P.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Р sounds like English P"
+        },
+        "correct": "false",
+        "tips": ["Р looks like P but sounds like rolled 'r'"]
+      },
+      {
+        "id": "ex231",
+        "kind": "order_words",
+        "prompt": "Order by body parts (top to bottom):",
+        "promptLang": "en",
+        "data": {
+          "words": ["крак", "врат", "нос", "рука"]
+        },
+        "correct": ["нос", "врат", "рука", "крак"]
+      },
+      {
+        "id": "ex232",
+        "kind": "multiple_choice",
+        "prompt": "Which word contains all 'false friend' letters?",
+        "promptLang": "en",
+        "data": {
+          "options": ["врат", "нос", "рука", "крак"]
+        },
+        "correct": "врат"
+      }
+    ],
+    "vocab": ["nose", "neck", "arm", "leg"]
+  },
+  {
+    "id": "consonants-16",
+    "title": "Consonant Mastery Test",
+    "unitId": "alphabet-consonants-1",
+    "prerequisites": ["consonants-15"],
+    "exercises": [
+      {
+        "id": "ex233",
+        "kind": "order_words",
+        "prompt": "Put all these consonants in Bulgarian alphabetical order:",
+        "promptLang": "en",
+        "data": {
+          "words": ["Ш", "Б", "Ж", "М", "Т", "К", "Р", "С"]
+        },
+        "correct": ["Б", "Ж", "К", "М", "Р", "С", "Т", "Ш"]
+      },
+      {
+        "id": "ex234",
+        "kind": "match_pairs",
+        "prompt": "Final consonant sound review:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["Б", "В", "Г", "Д", "Ж", "З", "К", "Л"],
+          "rightItems": ["l", "k", "z", "zh", "d", "g", "v", "b"]
+        },
+        "correct": ["Б:b", "В:v", "Г:g", "Д:d", "Ж:zh", "З:z", "К:k", "Л:l"]
+      },
+      {
+        "id": "ex235",
+        "kind": "type",
+        "prompt": "Type 'български' (Bulgarian):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "български"
+      },
+      {
+        "id": "ex236",
+        "kind": "multiple_choice",
+        "prompt": "How many consonant letters are in the Bulgarian alphabet?",
+        "promptLang": "en",
+        "data": {
+          "options": ["20", "21", "22", "23"]
+        },
+        "correct": "21",
+        "tips": ["30 total letters minus 6 vowels minus 3 special letters = 21 consonants"]
+      },
+      {
+        "id": "ex237",
+        "kind": "flashcard",
+        "prompt": "Celebrate your achievement:",
+        "promptLang": "en",
+        "data": {
+          "front": "Consonant Master!",
+          "back": "You now know all Bulgarian consonant sounds and letters!"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex238",
+        "kind": "true_false",
+        "prompt": "You have now mastered all basic Bulgarian consonants.",
+        "promptLang": "en",
+        "data": {
+          "statement": "All basic consonants mastered"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex239",
+        "kind": "select_letters",
+        "prompt": "Build 'съгласни' (consonants):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["С", "Ъ", "Г", "Л", "А", "С", "Н", "И", "с", "ъ", "г", "л", "а", "с", "н", "и"],
+          "targetWord": "съгласни"
+        },
+        "correct": ["с", "ъ", "г", "л", "а", "с", "н", "и"]
+      },
+      {
+        "id": "ex240",
+        "kind": "multiple_choice",
+        "prompt": "What does 'съгласни' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["vowels", "consonants", "letters", "sounds"]
+        },
+        "correct": "consonants"
+      }
+    ],
+    "vocab": ["bulgarian", "consonants"]
+  },
+  {
+    "id": "tricky-8",
+    "title": "Advanced Zh Sound: Ж",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["consonants-review"],
+    "exercises": [
+      {
+        "id": "ex241",
+        "kind": "flashcard",
+        "prompt": "Master the Ж sound:",
+        "promptLang": "en",
+        "data": {
+          "front": "Ж",
+          "back": "like 's' in 'measure' or 'j' in French 'je'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex242",
+        "kind": "multiple_choice",
+        "prompt": "Which word contains the Ж sound?",
+        "promptLang": "en",
+        "data": {
+          "options": ["кожа", "коса", "роза", "база"]
+        },
+        "correct": "кожа",
+        "tips": ["кожа means 'skin' and has the Ж sound"]
+      },
+      {
+        "id": "ex243",
+        "kind": "select_letters",
+        "prompt": "Build the word 'жена' (woman):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Ж", "Е", "Н", "А", "ж", "е", "н", "а"],
+          "targetWord": "жена"
+        },
+        "correct": ["ж", "е", "н", "а"]
+      },
+      {
+        "id": "ex244",
+        "kind": "type",
+        "prompt": "Type 'можа' (can/able):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "можа"
+      },
+      {
+        "id": "ex245",
+        "kind": "match_pairs",
+        "prompt": "Match Ж words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["жена", "кожа", "можа", "жив"],
+          "rightItems": ["alive", "can", "woman", "skin"]
+        },
+        "correct": ["жена:woman", "кожа:skin", "можа:can", "жив:alive"]
+      },
+      {
+        "id": "ex246",
+        "kind": "true_false",
+        "prompt": "The Ж sound exists in English.",
+        "promptLang": "en",
+        "data": {
+          "statement": "English has Ж sound"
+        },
+        "correct": "true",
+        "tips": ["It's like the 's' in 'measure' or 'pleasure'"]
+      },
+      {
+        "id": "ex247",
+        "kind": "order_words",
+        "prompt": "Order by length of word:",
+        "promptLang": "en",
+        "data": {
+          "words": ["жена", "кожа", "можа", "жив"]
+        },
+        "correct": ["жив", "кожа", "жена", "можа"]
+      },
+      {
+        "id": "ex248",
+        "kind": "multiple_choice",
+        "prompt": "What does 'жив' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["dead", "alive", "sick", "happy"]
+        },
+        "correct": "alive"
+      }
+    ],
+    "vocab": ["woman", "skin", "can", "alive"]
+  },
+  {
+    "id": "tricky-9",
+    "title": "Soft Consonant Combinations",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-8"],
+    "exercises": [
+      {
+        "id": "ex249",
+        "kind": "multiple_choice",
+        "prompt": "Which combination makes consonants soft?",
+        "promptLang": "en",
+        "data": {
+          "options": ["consonant + Ъ", "consonant + Ь", "consonant + Й", "consonant + И"]
+        },
+        "correct": "consonant + Ь"
+      },
+      {
+        "id": "ex250",
+        "kind": "flashcard",
+        "prompt": "Learn soft consonants:",
+        "promptLang": "en",
+        "data": {
+          "front": "Soft Consonants",
+          "back": "Created with Ь - makes consonant sound softer/palatalized"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex251",
+        "kind": "type",
+        "prompt": "Type 'любов' (love):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "любов"
+      },
+      {
+        "id": "ex252",
+        "kind": "select_letters",
+        "prompt": "Build the word 'тъмен' (dark):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Т", "Ъ", "М", "Е", "Н", "т", "ъ", "м", "е", "н"],
+          "targetWord": "тъмен"
+        },
+        "correct": ["т", "ъ", "м", "е", "н"]
+      },
+      {
+        "id": "ex253",
+        "kind": "match_pairs",
+        "prompt": "Match soft vs hard pairs:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["любов", "тъмен", "светъл", "добър"],
+          "rightItems": ["good", "bright", "love", "dark"]
+        },
+        "correct": ["любов:love", "тъмен:dark", "светъл:bright", "добър:good"]
+      },
+      {
+        "id": "ex254",
+        "kind": "true_false",
+        "prompt": "The letter Ь always appears at the end of words.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Ь only at word endings"
+        },
+        "correct": "false",
+        "tips": ["Ь can appear in the middle of words too"]
+      },
+      {
+        "id": "ex255",
+        "kind": "order_words",
+        "prompt": "Order from darkest to brightest:",
+        "promptLang": "en",
+        "data": {
+          "words": ["тъмен", "светъл", "черен", "бял"]
+        },
+        "correct": ["черен", "тъмен", "светъл", "бял"]
+      },
+      {
+        "id": "ex256",
+        "kind": "multiple_choice",
+        "prompt": "Which word means 'bright'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["тъмен", "светъл", "черен", "бял"]
+        },
+        "correct": "светъл"
+      }
+    ],
+    "vocab": ["love", "dark", "bright", "good"]
+  },
+  {
+    "id": "tricky-10",
+    "title": "Double Sounds: ДЖ, ДЗ",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-9"],
+    "exercises": [
+      {
+        "id": "ex257",
+        "kind": "flashcard",
+        "prompt": "Learn double consonant sounds:",
+        "promptLang": "en",
+        "data": {
+          "front": "ДЖ + ДЗ",
+          "back": "ДЖ = 'j' in 'job', ДЗ = 'ds' in 'lids'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex258",
+        "kind": "multiple_choice",
+        "prompt": "Which sound is like English 'j'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["ДЖ", "ДЗ", "ЧШ", "ТС"]
+        },
+        "correct": "ДЖ"
+      },
+      {
+        "id": "ex259",
+        "kind": "type",
+        "prompt": "Type 'джоб' (pocket):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "джоб"
+      },
+      {
+        "id": "ex260",
+        "kind": "select_letters",
+        "prompt": "Build the word 'дзън' (zen):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Д", "З", "Ъ", "Н", "д", "з", "ъ", "н"],
+          "targetWord": "дзън"
+        },
+        "correct": ["д", "з", "ъ", "н"]
+      },
+      {
+        "id": "ex261",
+        "kind": "match_pairs",
+        "prompt": "Match double sound words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["джоб", "джаз", "дзън", "дзинг"],
+          "rightItems": ["zing", "jazz", "pocket", "zen"]
+        },
+        "correct": ["джоб:pocket", "джаз:jazz", "дзън:zen", "дзинг:zing"]
+      },
+      {
+        "id": "ex262",
+        "kind": "true_false",
+        "prompt": "ДЖ and ДЗ are written as single letters in Bulgarian.",
+        "promptLang": "en",
+        "data": {
+          "statement": "ДЖ and ДЗ are single letters"
+        },
+        "correct": "false",
+        "tips": ["They are combinations of two letters: Д+Ж and Д+З"]
+      },
+      {
+        "id": "ex263",
+        "kind": "order_words",
+        "prompt": "Order alphabetically:",
+        "promptLang": "en",
+        "data": {
+          "words": ["джоб", "джаз", "дзън", "дзинг"]
+        },
+        "correct": ["джаз", "джоб", "дзинг", "дзън"]
+      },
+      {
+        "id": "ex264",
+        "kind": "multiple_choice",
+        "prompt": "What does 'джаз' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["jazz", "job", "jam", "joy"]
+        },
+        "correct": "jazz"
+      }
+    ],
+    "vocab": ["pocket", "jazz", "zen", "zing"]
+  },
+  {
+    "id": "tricky-11", 
+    "title": "Regional Consonant Variations",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-10"],
+    "exercises": [
+      {
+        "id": "ex265",
+        "kind": "flashcard",
+        "prompt": "Learn about regional sounds:",
+        "promptLang": "en",
+        "data": {
+          "front": "Regional Variations",
+          "back": "Some areas pronounce Щ as ШТ, others as just Ш"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex266",
+        "kind": "multiple_choice",
+        "prompt": "How is Щ most commonly pronounced?",
+        "promptLang": "en",
+        "data": {
+          "options": ["sht", "sh", "st", "cht"]
+        },
+        "correct": "sht"
+      },
+      {
+        "id": "ex267",
+        "kind": "type",
+        "prompt": "Type 'защо' (why):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "защо"
+      },
+      {
+        "id": "ex268",
+        "kind": "select_letters",
+        "prompt": "Build the word 'пощa' (post office):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["П", "О", "Щ", "А", "п", "о", "щ", "а"],
+          "targetWord": "пощa"
+        },
+        "correct": ["п", "о", "щ", "а"]
+      },
+      {
+        "id": "ex269",
+        "kind": "match_pairs",
+        "prompt": "Match Щ words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["защо", "пощa", "нещo", "още"],
+          "rightItems": ["still/more", "something", "why", "post office"]
+        },
+        "correct": ["защо:why", "пощa:post office", "нещo:something", "още:still/more"]
+      },
+      {
+        "id": "ex270",
+        "kind": "true_false",
+        "prompt": "All Bulgarians pronounce Щ the same way.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Щ pronunciation is uniform"
+        },
+        "correct": "false",
+        "tips": ["There are regional variations in pronunciation"]
+      },
+      {
+        "id": "ex271",
+        "kind": "order_words",
+        "prompt": "Order by question words:",
+        "promptLang": "en",
+        "data": {
+          "words": ["защо", "кога", "къде", "какво"]
+        },
+        "correct": ["какво", "къде", "кога", "защо"]
+      },
+      {
+        "id": "ex272",
+        "kind": "multiple_choice",
+        "prompt": "What does 'нещo' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["nothing", "something", "everything", "anything"]
+        },
+        "correct": "something"
+      }
+    ],
+    "vocab": ["why", "post-office", "something", "still"]
+  },
+  {
+    "id": "tricky-12",
+    "title": "Borrowed Consonant Sounds",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-11"],
+    "exercises": [
+      {
+        "id": "ex273",
+        "kind": "multiple_choice",
+        "prompt": "Which sound doesn't exist in traditional Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["ф", "в", "дж", "щ"]
+        },
+        "correct": "дж",
+        "tips": ["ДЖ came from borrowed words"]
+      },
+      {
+        "id": "ex274",
+        "kind": "flashcard",
+        "prompt": "Learn about borrowed sounds:",
+        "promptLang": "en",
+        "data": {
+          "front": "Borrowed Sounds",
+          "back": "ДЖ, ДЗ came from Turkish and other languages"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex275",
+        "kind": "type",
+        "prompt": "Type 'джинджифил' (ginger):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "джинджифил"
+      },
+      {
+        "id": "ex276",
+        "kind": "select_letters",
+        "prompt": "Build the word 'джакузи' (jacuzzi):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Д", "Ж", "А", "К", "У", "З", "И", "д", "ж", "а", "к", "у", "з", "и"],
+          "targetWord": "джакузи"
+        },
+        "correct": ["д", "ж", "а", "к", "у", "з", "и"]
+      },
+      {
+        "id": "ex277",
+        "kind": "match_pairs",
+        "prompt": "Match borrowed words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["джинджифил", "джакузи", "джунгла", "джентълмен"],
+          "rightItems": ["gentleman", "jungle", "ginger", "jacuzzi"]
+        },
+        "correct": ["джинджифил:ginger", "джакузи:jacuzzi", "джунгла:jungle", "джентълмен:gentleman"]
+      },
+      {
+        "id": "ex278",
+        "kind": "true_false",
+        "prompt": "All Bulgarian consonant sounds are native to the language.",
+        "promptLang": "en",
+        "data": {
+          "statement": "All consonants are native Bulgarian"
+        },
+        "correct": "false",
+        "tips": ["Some sounds came from borrowed foreign words"]
+      },
+      {
+        "id": "ex279",
+        "kind": "order_words",
+        "prompt": "Order by number of syllables:",
+        "promptLang": "en",
+        "data": {
+          "words": ["джинджифил", "джакузи", "джунгла", "джентълмен"]
+        },
+        "correct": ["джунгла", "джакузи", "джентълмен", "джинджифил"]
+      },
+      {
+        "id": "ex280",
+        "kind": "multiple_choice",
+        "prompt": "Which word is borrowed from English?",
+        "promptLang": "en",
+        "data": {
+          "options": ["джинджифил", "джакузи", "джунгла", "джентълмен"]
+        },
+        "correct": "джентълмен"
+      }
+    ],
+    "vocab": ["ginger", "jacuzzi", "jungle", "gentleman"]
+  },
+  {
+    "id": "tricky-13",
+    "title": "Consonant Clusters in Practice",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-12"],
+    "exercises": [
+      {
+        "id": "ex281",
+        "kind": "flashcard",
+        "prompt": "Learn difficult clusters:",
+        "promptLang": "en",
+        "data": {
+          "front": "Consonant Clusters",
+          "back": "Bulgarian allows complex clusters like ВСТР-, ЗДРАВ-"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex282",
+        "kind": "type",
+        "prompt": "Type 'встреча' (meeting):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "среща"
+      },
+      {
+        "id": "ex283",
+        "kind": "select_letters",
+        "prompt": "Build the word 'здрав' (healthy):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["З", "Д", "Р", "А", "В", "з", "д", "р", "а", "в"],
+          "targetWord": "здрав"
+        },
+        "correct": ["з", "д", "р", "а", "в"]
+      },
+      {
+        "id": "ex284",
+        "kind": "multiple_choice",
+        "prompt": "Which word has the most consonants in a row?",
+        "promptLang": "en",
+        "data": {
+          "options": ["среща", "здрав", "простор", "строг"]
+        },
+        "correct": "простор",
+        "tips": ["простор has ПР and СТ clusters"]
+      },
+      {
+        "id": "ex285",
+        "kind": "match_pairs",
+        "prompt": "Match cluster words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["среща", "здрав", "простор", "строг"],
+          "rightItems": ["strict", "space", "meeting", "healthy"]
+        },
+        "correct": ["среща:meeting", "здрав:healthy", "простор:space", "строг:strict"]
+      },
+      {
+        "id": "ex286",
+        "kind": "true_false",
+        "prompt": "Bulgarian consonant clusters are easy for English speakers.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Bulgarian clusters are easy for English speakers"
+        },
+        "correct": "false",
+        "tips": ["Bulgarian has more complex clusters than English"]
+      },
+      {
+        "id": "ex287",
+        "kind": "order_words",
+        "prompt": "Order by difficulty to pronounce:",
+        "promptLang": "en",
+        "data": {
+          "words": ["среща", "здрав", "простор", "строг"]
+        },
+        "correct": ["строг", "здрав", "среща", "простор"]
+      },
+      {
+        "id": "ex288",
+        "kind": "multiple_choice",
+        "prompt": "What does 'строг' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["weak", "strong", "strict", "straight"]
+        },
+        "correct": "strict"
+      }
+    ],
+    "vocab": ["meeting", "healthy", "space", "strict"]
+  },
+  {
+    "id": "tricky-14",
+    "title": "Palatalization Effects",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-13"],
+    "exercises": [
+      {
+        "id": "ex289",
+        "kind": "flashcard",
+        "prompt": "Learn palatalization:",
+        "promptLang": "en",
+        "data": {
+          "front": "Palatalization",
+          "back": "Consonants become 'softer' before И, Е, Ю, Я"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex290",
+        "kind": "multiple_choice",
+        "prompt": "Which vowel causes palatalization?",
+        "promptLang": "en",
+        "data": {
+          "options": ["А", "О", "И", "У"]
+        },
+        "correct": "И"
+      },
+      {
+        "id": "ex291",
+        "kind": "type",
+        "prompt": "Type 'тихо' (quiet):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "тихо"
+      },
+      {
+        "id": "ex292",
+        "kind": "select_letters",
+        "prompt": "Build the word 'мирен' (peaceful):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["М", "И", "Р", "Е", "Н", "м", "и", "р", "е", "н"],
+          "targetWord": "мирен"
+        },
+        "correct": ["м", "и", "р", "е", "н"]
+      },
+      {
+        "id": "ex293",
+        "kind": "match_pairs",
+        "prompt": "Match palatalized words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["тихо", "мирен", "нежен", "сладък"],
+          "rightItems": ["sweet", "gentle", "quiet", "peaceful"]
+        },
+        "correct": ["тихо:quiet", "мирен:peaceful", "нежен:gentle", "сладък:sweet"]
+      },
+      {
+        "id": "ex294",
+        "kind": "true_false",
+        "prompt": "Palatalization only happens with the soft sign Ь.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Only Ь causes palatalization"
+        },
+        "correct": "false",
+        "tips": ["Front vowels И, Е, Ю, Я also cause palatalization"]
+      },
+      {
+        "id": "ex295",
+        "kind": "order_words",
+        "prompt": "Order by softness of sound:",
+        "promptLang": "en",
+        "data": {
+          "words": ["тихо", "мирен", "нежен", "сладък"]
+        },
+        "correct": ["сладък", "мирен", "нежен", "тихо"]
+      },
+      {
+        "id": "ex296",
+        "kind": "multiple_choice",
+        "prompt": "What does 'нежен' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["rough", "gentle", "hard", "loud"]
+        },
+        "correct": "gentle"
+      }
+    ],
+    "vocab": ["quiet", "peaceful", "gentle", "sweet"]
+  },
+  {
+    "id": "tricky-15",
+    "title": "Voicing and Devoicing",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-14"],
+    "exercises": [
+      {
+        "id": "ex297",
+        "kind": "flashcard",
+        "prompt": "Learn voicing rules:",
+        "promptLang": "en",
+        "data": {
+          "front": "Voicing/Devoicing",
+          "back": "Voiced consonants become voiceless at word ends and before voiceless consonants"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex298",
+        "kind": "multiple_choice",
+        "prompt": "How is 'хляб' (bread) pronounced at the end?",
+        "promptLang": "en",
+        "data": {
+          "options": ["hlyab", "hlyap", "hlyav", "hlyad"]
+        },
+        "correct": "hlyap",
+        "tips": ["Final Б becomes voiceless П"]
+      },
+      {
+        "id": "ex299",
+        "kind": "type",
+        "prompt": "Type 'град' (city):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "град"
+      },
+      {
+        "id": "ex300",
+        "kind": "select_letters",
+        "prompt": "Build the word 'мраз' (frost):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["М", "Р", "А", "З", "м", "р", "а", "з"],
+          "targetWord": "мраз"
+        },
+        "correct": ["м", "р", "а", "з"]
+      },
+      {
+        "id": "ex301",
+        "kind": "match_pairs",
+        "prompt": "Match words with final devoicing:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["хляб", "град", "мраз", "сняг"],
+          "rightItems": ["snow", "frost", "bread", "city"]
+        },
+        "correct": ["хляб:bread", "град:city", "мраз:frost", "сняг:snow"]
+      },
+      {
+        "id": "ex302",
+        "kind": "true_false",
+        "prompt": "All final consonants in Bulgarian are pronounced as written.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Final consonants sound as written"
+        },
+        "correct": "false",
+        "tips": ["Voiced consonants become voiceless at word ends"]
+      },
+      {
+        "id": "ex303",
+        "kind": "order_words",
+        "prompt": "Order by season (winter to summer):",
+        "promptLang": "en",
+        "data": {
+          "words": ["мраз", "сняг", "дъжд", "жега"]
+        },
+        "correct": ["мраз", "сняг", "дъжд", "жега"]
+      },
+      {
+        "id": "ex304",
+        "kind": "multiple_choice",
+        "prompt": "Which word means 'city'?",
+        "promptLang": "en",
+        "data": {
+          "options": ["хляб", "град", "мраз", "сняг"]
+        },
+        "correct": "град"
+      }
+    ],
+    "vocab": ["bread", "city", "frost", "snow", "heat"]
+  },
+  {
+    "id": "tricky-16",
+    "title": "Consonant Alternations",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-15"],
+    "exercises": [
+      {
+        "id": "ex305",
+        "kind": "flashcard",
+        "prompt": "Learn alternations:",
+        "promptLang": "en",
+        "data": {
+          "front": "Consonant Alternations",
+          "back": "К→Ч, Г→Ж, Х→Ш in different word forms"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex306",
+        "kind": "multiple_choice",
+        "prompt": "What does К become before И?",
+        "promptLang": "en",
+        "data": {
+          "options": ["Г", "Ч", "Х", "Ж"]
+        },
+        "correct": "Ч",
+        "tips": ["рък → ръчи (hand → hands)"]
+      },
+      {
+        "id": "ex307",
+        "kind": "type",
+        "prompt": "Type 'другар' (friend):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "другар"
+      },
+      {
+        "id": "ex308",
+        "kind": "select_letters",
+        "prompt": "Build the word 'книга' (book):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["К", "Н", "И", "Г", "А", "к", "н", "и", "г", "а"],
+          "targetWord": "книга"
+        },
+        "correct": ["к", "н", "и", "г", "а"]
+      },
+      {
+        "id": "ex309",
+        "kind": "match_pairs",
+        "prompt": "Match base and alternated forms:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["рък→ръчи", "други→другари", "книга→книжи", "тих→тиши"],
+          "rightItems": ["quiet→quieter", "book→books", "hand→hands", "other→others"]
+        },
+        "correct": ["рък→ръчи:hand→hands", "други→другари:other→others", "книга→книжи:book→books", "тих→тиши:quiet→quieter"]
+      },
+      {
+        "id": "ex310",
+        "kind": "true_false",
+        "prompt": "Consonant alternations are regular patterns in Bulgarian.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Alternations follow regular patterns"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex311",
+        "kind": "order_words",
+        "prompt": "Order by frequency of use:",
+        "promptLang": "en",
+        "data": {
+          "words": ["книга", "другар", "рък", "тих"]
+        },
+        "correct": ["рък", "книга", "другар", "тих"]
+      },
+      {
+        "id": "ex312",
+        "kind": "multiple_choice",
+        "prompt": "What does 'книга' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["friend", "book", "hand", "quiet"]
+        },
+        "correct": "book"
+      }
+    ],
+    "vocab": ["friend", "book", "hand", "quiet", "other"]
+  },
+  {
+    "id": "tricky-17",
+    "title": "Advanced Consonant Recognition",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-16"],
+    "exercises": [
+      {
+        "id": "ex313",
+        "kind": "order_words",
+        "prompt": "Put these complex consonant combinations in alphabetical order:",
+        "promptLang": "en",
+        "data": {
+          "words": ["ВСТР", "ЗДРВ", "ПРСТ", "СТРГ"]
+        },
+        "correct": ["ВСТР", "ЗДРВ", "ПРСТ", "СТРГ"]
+      },
+      {
+        "id": "ex314",
+        "kind": "multiple_choice",
+        "prompt": "Which is the hardest consonant cluster for beginners?",
+        "promptLang": "en",
+        "data": {
+          "options": ["БР", "ВСТР", "СТ", "ПР"]
+        },
+        "correct": "ВСТР",
+        "tips": ["ВСТР has four consonants in a row"]
+      },
+      {
+        "id": "ex315",
+        "kind": "flashcard",
+        "prompt": "Challenge yourself:",
+        "promptLang": "en",
+        "data": {
+          "front": "Master Level",
+          "back": "You can now handle the trickiest Bulgarian consonants!"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex316",
+        "kind": "type",
+        "prompt": "Type 'разстройство' (disorder):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "разстройство"
+      },
+      {
+        "id": "ex317",
+        "kind": "select_letters",
+        "prompt": "Build the word 'превъзходен' (excellent):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["П", "Р", "Е", "В", "Ъ", "З", "Х", "О", "Д", "Е", "Н", "п", "р", "е", "в", "ъ", "з", "х", "о", "д", "е", "н"],
+          "targetWord": "превъзходен"
+        },
+        "correct": ["п", "р", "е", "в", "ъ", "з", "х", "о", "д", "е", "н"]
+      },
+      {
+        "id": "ex318",
+        "kind": "match_pairs",
+        "prompt": "Match advanced words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["разстройство", "превъзходен", "изключителен", "необыкновен"],
+          "rightItems": ["unusual", "exceptional", "disorder", "excellent"]
+        },
+        "correct": ["разстройство:disorder", "превъзходен:excellent", "изключителен:exceptional", "необыкновен:unusual"]
+      },
+      {
+        "id": "ex319",
+        "kind": "true_false",
+        "prompt": "You are now ready for advanced Bulgarian consonant patterns.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Ready for advanced patterns"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex320",
+        "kind": "multiple_choice",
+        "prompt": "What does 'превъзходен' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["terrible", "good", "excellent", "bad"]
+        },
+        "correct": "excellent"
+      }
+    ],
+    "vocab": ["disorder", "excellent", "exceptional", "unusual"]
+  },
+  {
+    "id": "tricky-18",
+    "title": "Consonant Mastery Review",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-17"],
+    "exercises": [
+      {
+        "id": "ex321",
+        "kind": "match_pairs",
+        "prompt": "Final review - match all tricky consonant sounds:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["Ж", "Ш", "Ч", "Щ", "Ц", "ДЖ", "ДЗ", "Ь"],
+          "rightItems": ["soft sign", "ds", "j", "ts", "sht", "ch", "sh", "zh"]
+        },
+        "correct": ["Ж:zh", "Ш:sh", "Ч:ch", "Щ:sht", "Ц:ts", "ДЖ:j", "ДЗ:ds", "Ь:soft sign"]
+      },
+      {
+        "id": "ex322",
+        "kind": "type",
+        "prompt": "Type 'съгласни звукове' (consonant sounds):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "съгласни звукове"
+      },
+      {
+        "id": "ex323",
+        "kind": "multiple_choice",
+        "prompt": "Which consonant feature is unique to Bulgarian among Slavic languages?",
+        "promptLang": "en",
+        "data": {
+          "options": ["palatalization", "voicing", "clusters", "ДЖ/ДЗ sounds"]
+        },
+        "correct": "ДЖ/ДЗ sounds",
+        "tips": ["These sounds came from Turkish influence"]
+      },
+      {
+        "id": "ex324",
+        "kind": "flashcard",
+        "prompt": "Celebrate your progress:",
+        "promptLang": "en",
+        "data": {
+          "front": "Tricky Consonant Master!",
+          "back": "You've mastered the most challenging Bulgarian consonant sounds!"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex325",
+        "kind": "select_letters",
+        "prompt": "Build 'майсторство' (mastery):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["М", "А", "Й", "С", "Т", "О", "Р", "С", "Т", "В", "О", "м", "а", "й", "с", "т", "о", "р", "с", "т", "в", "о"],
+          "targetWord": "майсторство"
+        },
+        "correct": ["м", "а", "й", "с", "т", "о", "р", "с", "т", "в", "о"]
+      },
+      {
+        "id": "ex326",
+        "kind": "true_false",
+        "prompt": "You now understand Bulgarian consonant phonology.",
+        "promptLang": "en",
+        "data": {
+          "statement": "I understand Bulgarian consonant phonology"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex327",
+        "kind": "order_words",
+        "prompt": "Order these concepts by difficulty:",
+        "promptLang": "en",
+        "data": {
+          "words": ["basic sounds", "clusters", "alternations", "palatalization"]
+        },
+        "correct": ["basic sounds", "clusters", "palatalization", "alternations"]
+      },
+      {
+        "id": "ex328",
+        "kind": "multiple_choice",
+        "prompt": "What does 'майсторство' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["mastery", "mystery", "mistake", "meeting"]
+        },
+        "correct": "mastery"
+      }
+    ],
+    "vocab": ["consonant", "sounds", "mastery"]
+  },
+  {
+    "id": "tricky-19",
+    "title": "Tricky Consonants Final Test",
+    "unitId": "alphabet-consonants-2",
+    "prerequisites": ["tricky-18"],
+    "exercises": [
+      {
+        "id": "ex329",
+        "kind": "type",
+        "prompt": "Type the hardest word: 'изключително' (extremely):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "изключително"
+      },
+      {
+        "id": "ex330",
+        "kind": "multiple_choice",
+        "prompt": "How many tricky consonant lessons have you completed?",
+        "promptLang": "en",
+        "data": {
+          "options": ["10", "12", "14", "16"]
+        },
+        "correct": "12",
+        "tips": ["tricky-8 through tricky-19 = 12 lessons"]
+      },
+      {
+        "id": "ex331",
+        "kind": "match_pairs",
+        "prompt": "Match the most challenging pairs:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["voicing", "palatalization", "alternation", "borrowing"],
+          "rightItems": ["ДЖ sounds", "К→Ч changes", "soft consonants", "final devoicing"]
+        },
+        "correct": ["voicing:final devoicing", "palatalization:soft consonants", "alternation:К→Ч changes", "borrowing:ДЖ sounds"]
+      },
+      {
+        "id": "ex332",
+        "kind": "flashcard",
+        "prompt": "Final achievement:",
+        "promptLang": "en",
+        "data": {
+          "front": "Tricky Consonant Graduate!",
+          "back": "Ready for special letters and advanced Bulgarian!"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex333",
+        "kind": "select_letters",
+        "prompt": "Build 'поздравления' (congratulations):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["П", "О", "З", "Д", "Р", "А", "В", "Л", "Е", "Н", "И", "Я", "п", "о", "з", "д", "р", "а", "в", "л", "е", "н", "и", "я"],
+          "targetWord": "поздравления"
+        },
+        "correct": ["п", "о", "з", "д", "р", "а", "в", "л", "е", "н", "и", "я"]
+      },
+      {
+        "id": "ex334",
+        "kind": "true_false",
+        "prompt": "Tricky consonants are now familiar to you.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Tricky consonants are now familiar"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex335",
+        "kind": "order_words",
+        "prompt": "Order your learning journey:",
+        "promptLang": "en",
+        "data": {
+          "words": ["advanced sounds", "basic consonants", "special letters", "tricky consonants"]
+        },
+        "correct": ["basic consonants", "tricky consonants", "special letters", "advanced sounds"]
+      },
+      {
+        "id": "ex336",
+        "kind": "multiple_choice",
+        "prompt": "What's next in your Bulgarian alphabet journey?",
+        "promptLang": "en",
+        "data": {
+          "options": ["vowels", "special letters", "numbers", "grammar"]
+        },
+        "correct": "special letters"
+      }
+    ],
+    "vocab": ["extremely", "congratulations"]
+  },
+  {
+    "id": "special-4",
+    "title": "The Y-sound: Й",
+    "unitId": "alphabet-special",
+    "prerequisites": ["alphabet-final"],
+    "exercises": [
+      {
+        "id": "ex337",
+        "kind": "flashcard",
+        "prompt": "Master the short I:",
+        "promptLang": "en",
+        "data": {
+          "front": "Й (и-кратко)",
+          "back": "like 'y' in 'yes' - appears in дiptlongs and as consonant"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex338",
+        "kind": "multiple_choice",
+        "prompt": "What is Й called in Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["и-голямо", "и-кратко", "и-малко", "и-дълго"]
+        },
+        "correct": "и-кратко",
+        "tips": ["и-кратко means 'short i'"]
+      },
+      {
+        "id": "ex339",
+        "kind": "select_letters",
+        "prompt": "Build the word 'най' (most):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["Н", "А", "Й", "М", "н", "а", "й"],
+          "targetWord": "най"
+        },
+        "correct": ["н", "а", "й"]
+      },
+      {
+        "id": "ex340",
+        "kind": "type",
+        "prompt": "Type 'мой' (my - masculine):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "мой"
+      },
+      {
+        "id": "ex341",
+        "kind": "match_pairs",
+        "prompt": "Match Й words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["най", "мой", "твой", "край"],
+          "rightItems": ["end", "your", "most", "my"]
+        },
+        "correct": ["най:most", "мой:my", "твой:your", "край:end"]
+      },
+      {
+        "id": "ex342",
+        "kind": "true_false",
+        "prompt": "Й can appear at the beginning of words.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Й can start words"
+        },
+        "correct": "false",
+        "tips": ["Й typically appears in the middle or end of words"]
+      },
+      {
+        "id": "ex343",
+        "kind": "order_words",
+        "prompt": "Order by frequency of use:",
+        "promptLang": "en",
+        "data": {
+          "words": ["най", "мой", "твой", "край"]
+        },
+        "correct": ["мой", "най", "твой", "край"]
+      },
+      {
+        "id": "ex344",
+        "kind": "multiple_choice",
+        "prompt": "What does 'край' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["start", "middle", "end", "side"]
+        },
+        "correct": "end"
+      }
+    ],
+    "vocab": ["most", "my-masculine", "your-masculine", "end"]
+  },
+  {
+    "id": "special-5",
+    "title": "The Hard Sign: Ъ in Detail",
+    "unitId": "alphabet-special",
+    "prerequisites": ["special-4"],
+    "exercises": [
+      {
+        "id": "ex345",
+        "kind": "flashcard",
+        "prompt": "Review the most important vowel:",
+        "promptLang": "en",
+        "data": {
+          "front": "Ъ (ер голям)",
+          "back": "most frequent Bulgarian vowel - schwa sound like 'u' in 'but'"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex346",
+        "kind": "multiple_choice",
+        "prompt": "Which vowel appears most often in Bulgarian text?",
+        "promptLang": "en",
+        "data": {
+          "options": ["А", "Е", "И", "Ъ"]
+        },
+        "correct": "Ъ"
+      },
+      {
+        "id": "ex347",
+        "kind": "type",
+        "prompt": "Type 'българин' (Bulgarian person):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "българин"
+      },
+      {
+        "id": "ex348",
+        "kind": "select_letters",
+        "prompt": "Build the word 'студентка' (female student):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["С", "Т", "У", "Д", "Е", "Н", "Т", "К", "А", "с", "т", "у", "д", "е", "н", "т", "к", "а"],
+          "targetWord": "студентка"
+        },
+        "correct": ["с", "т", "у", "д", "е", "н", "т", "к", "а"]
+      },
+      {
+        "id": "ex349",
+        "kind": "match_pairs",
+        "prompt": "Match words with Ъ:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["българин", "студентка", "учителка", "работник"],
+          "rightItems": ["worker", "teacher", "Bulgarian", "student"]
+        },
+        "correct": ["българин:Bulgarian", "студентка:student", "учителка:teacher", "работник:worker"]
+      },
+      {
+        "id": "ex350",
+        "kind": "true_false",
+        "prompt": "The Ъ vowel exists in other Slavic languages too.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Other Slavic languages have Ъ"
+        },
+        "correct": "false",
+        "tips": ["Ъ as a vowel is unique to Bulgarian"]
+      },
+      {
+        "id": "ex351",
+        "kind": "order_words",
+        "prompt": "Order by profession level:",
+        "promptLang": "en",
+        "data": {
+          "words": ["студентка", "учителка", "работник", "българин"]
+        },
+        "correct": ["студентка", "работник", "учителка", "българин"]
+      },
+      {
+        "id": "ex352",
+        "kind": "multiple_choice",
+        "prompt": "What does 'учителка' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["student", "teacher", "worker", "Bulgarian"]
+        },
+        "correct": "teacher"
+      }
+    ],
+    "vocab": ["bulgarian-person", "female-student", "female-teacher", "worker"]
+  },
+  {
+    "id": "special-6", 
+    "title": "The Soft Sign: Ь Functions",
+    "unitId": "alphabet-special",
+    "prerequisites": ["special-5"],
+    "exercises": [
+      {
+        "id": "ex353",
+        "kind": "flashcard",
+        "prompt": "Understand the soft sign:",
+        "promptLang": "en",
+        "data": {
+          "front": "Ь (ер малък)",
+          "back": "doesn't make sound - softens/palatalizes preceding consonant"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex354",
+        "kind": "multiple_choice",
+        "prompt": "What does the soft sign do?",
+        "promptLang": "en",
+        "data": {
+          "options": ["makes sound", "softens consonants", "separates syllables", "adds stress"]
+        },
+        "correct": "softens consonants"
+      },
+      {
+        "id": "ex355",
+        "kind": "type",
+        "prompt": "Type 'коляно' (knee):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "коляно"
+      },
+      {
+        "id": "ex356",
+        "kind": "select_letters",
+        "prompt": "Build the word 'семейство' (family):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["С", "Е", "М", "Е", "Й", "С", "Т", "В", "О", "с", "е", "м", "е", "й", "с", "т", "в", "о"],
+          "targetWord": "семейство"
+        },
+        "correct": ["с", "е", "м", "е", "й", "с", "т", "в", "о"]
+      },
+      {
+        "id": "ex357",
+        "kind": "match_pairs",
+        "prompt": "Match soft sign contexts:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["коляно", "семейство", "българьо", "деньо"],
+          "rightItems": ["little Denis", "little Bulgarian", "knee", "family"]
+        },
+        "correct": ["коляно:knee", "семейство:family", "българьо:little Bulgarian", "деньо:little Denis"]
+      },
+      {
+        "id": "ex358",
+        "kind": "true_false",
+        "prompt": "Ь appears more often than Ъ in Bulgarian text.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Ь is more common than Ъ"
+        },
+        "correct": "false",
+        "tips": ["Ъ is much more common than Ь"]
+      },
+      {
+        "id": "ex359",
+        "kind": "order_words",
+        "prompt": "Order by body parts (top to bottom):",
+        "promptLang": "en",
+        "data": {
+          "words": ["коляно", "глава", "рамо", "крак"]
+        },
+        "correct": ["глава", "рамо", "коляно", "крак"]
+      },
+      {
+        "id": "ex360",
+        "kind": "multiple_choice",
+        "prompt": "Where does Ь usually appear in words?",
+        "promptLang": "en",
+        "data": {
+          "options": ["beginning", "middle", "end", "anywhere"]
+        },
+        "correct": "middle"
+      }
+    ],
+    "vocab": ["knee", "family", "little-name"]
+  },
+  {
+    "id": "special-7",
+    "title": "Letter Combinations with Special Letters",
+    "unitId": "alphabet-special",
+    "prerequisites": ["special-6"],
+    "exercises": [
+      {
+        "id": "ex361",
+        "kind": "multiple_choice",
+        "prompt": "Which combination makes the 'yo' sound?",
+        "promptLang": "en",
+        "data": {
+          "options": ["ЙА", "ЙО", "ЙУ", "ЙЪ"]
+        },
+        "correct": "ЙО",
+        "tips": ["ЙО sounds like 'yo' in 'yoke'"]
+      },
+      {
+        "id": "ex362",
+        "kind": "flashcard",
+        "prompt": "Learn special combinations:",
+        "promptLang": "en",
+        "data": {
+          "front": "Special Combinations",
+          "back": "ЙО=yo, ЙА=ya, ЙЪ=ya (with schwa)"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex363",
+        "kind": "type",
+        "prompt": "Type 'майор' (major):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "майор"
+      },
+      {
+        "id": "ex364",
+        "kind": "select_letters",
+        "prompt": "Build the word 'стоя' (I stand):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["С", "Т", "О", "Я", "с", "т", "о", "я"],
+          "targetWord": "стоя"
+        },
+        "correct": ["с", "т", "о", "я"]
+      },
+      {
+        "id": "ex365",
+        "kind": "match_pairs",
+        "prompt": "Match combination words:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["майор", "стоя", "моя", "твоя"],
+          "rightItems": ["yours", "mine", "stand", "major"]
+        },
+        "correct": ["майор:major", "стоя:stand", "моя:mine", "твоя:yours"]
+      },
+      {
+        "id": "ex366",
+        "kind": "true_false",
+        "prompt": "ЙА and Я make the same sound.",
+        "promptLang": "en",
+        "data": {
+          "statement": "ЙА sounds like Я"
+        },
+        "correct": "true"
+      },
+      {
+        "id": "ex367",
+        "kind": "order_words",
+        "prompt": "Order by military rank:",
+        "promptLang": "en",
+        "data": {
+          "words": ["майор", "генерал", "капитан", "сержант"]
+        },
+        "correct": ["сержант", "капитан", "майор", "генерал"]
+      },
+      {
+        "id": "ex368",
+        "kind": "multiple_choice",
+        "prompt": "What does 'стоя' mean?",
+        "promptLang": "en",
+        "data": {
+          "options": ["sit", "stand", "lie", "run"]
+        },
+        "correct": "stand"
+      }
+    ],
+    "vocab": ["major", "stand", "mine-feminine", "yours-feminine"]
+  },
+  {
+    "id": "special-8",
+    "title": "Apostrophe and Special Punctuation",
+    "unitId": "alphabet-special",
+    "prerequisites": ["special-7"],
+    "exercises": [
+      {
+        "id": "ex369",
+        "kind": "flashcard",
+        "prompt": "Learn about apostrophes:",
+        "promptLang": "en",
+        "data": {
+          "front": "Apostrophe in Bulgarian",
+          "back": "Used rarely - mainly in foreign names and borrowed words"
+        },
+        "correct": "good"
+      },
+      {
+        "id": "ex370",
+        "kind": "multiple_choice",
+        "prompt": "When is apostrophe used in Bulgarian?",
+        "promptLang": "en",
+        "data": {
+          "options": ["possessives", "contractions", "foreign names", "plurals"]
+        },
+        "correct": "foreign names"
+      },
+      {
+        "id": "ex371",
+        "kind": "type",
+        "prompt": "Type 'О'Нийл' (O'Neill):",
+        "promptLang": "en",
+        "data": {},
+        "correct": "О'Нийл"
+      },
+      {
+        "id": "ex372",
+        "kind": "select_letters",
+        "prompt": "Build the word 'МакДоналдс' (McDonald's):",
+        "promptLang": "en",
+        "data": {
+          "letters": ["М", "А", "К", "Д", "О", "Н", "А", "Л", "Д", "С", "м", "а", "к", "д", "о", "н", "а", "л", "д", "с"],
+          "targetWord": "МакДоналдс"
+        },
+        "correct": ["м", "а", "к", "д", "о", "н", "а", "л", "д", "с"]
+      },
+      {
+        "id": "ex373",
+        "kind": "match_pairs",
+        "prompt": "Match foreign names:",
+        "promptLang": "en",
+        "data": {
+          "leftItems": ["О'Нийл", "МакДоналдс", "Д'Артанян", "О'Хара"],
+          "rightItems": ["O'Hara", "D'Artagnan", "O'Neill", "McDonald's"]
+        },
+        "correct": ["О'Нийл:O'Neill", "МакДоналдс:McDonald's", "Д'Артанян:D'Artagnan", "О'Хара:O'Hara"]
+      },
+      {
+        "id": "ex374",
+        "kind": "true_false",
+        "prompt": "Bulgarian uses apostrophes as frequently as English.",
+        "promptLang": "en",
+        "data": {
+          "statement": "Bulgarian uses many apostrophes"
+        },
+        "correct": "false",
+        "tips": ["Apostrophes are rare in Bulgarian"]
+      },
+      {
+        "id": "ex375",
+        "kind": "order_words",
+        "prompt": "Order these names alphabetically:",
+        "promptLang": "en",
+        "data": {
+          "words": ["О'Нийл", "МакДоналдс", "Д'Артанян", "О'Хара"]
+        },
+        "correct": ["Д'Артанян", "МакДоналдс", "О'Нийл", "О'Хара"]
+      },
+      {
+        "id": "ex376",
+        "kind": "multiple_choice",
+        "prompt": "Which character is from literature?",
+        "promptLang": "en",
+        "data": {
+          "options": ["О'Нийл", "МакДоналдс", "Д'Артанян", "О'Хара"]
+        },
+        "correct": "Д'Артанян"
+      }
+    ],
+    "vocab": ["oneill", "mcdonalds", "dartagnan", "ohara"]
   }
 ]

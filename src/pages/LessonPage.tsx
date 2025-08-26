@@ -10,7 +10,7 @@ export const LessonPage: React.FC = () => {
   const { lessonId } = useParams<{ lessonId: string }>();
   const navigate = useNavigate();
   const { getLesson } = useContentStore();
-  const { completeLesson, addXp, unlockBadge } = useProgressStore();
+  const { completeLesson, addXp, unlockBadge, updateSrsItem } = useProgressStore();
 
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
   const [exerciseResults, setExerciseResults] = useState<ExerciseResult[]>([]);
@@ -34,6 +34,20 @@ export const LessonPage: React.FC = () => {
   const handleExerciseComplete = (result: ExerciseResult) => {
     const newResults = [...exerciseResults, result];
     setExerciseResults(newResults);
+
+    // Handle SRS for flashcard exercises or explicit SRS confidence
+    if (currentExercise.kind === 'flashcard' && result.correct) {
+      const itemId = `${lesson.id}-${currentExercise.id}`;
+      // Map flashcard confidence to SRS adjustment - we need to get the actual answer from the store
+      // For now, treat flashcard completion as correct for SRS
+      updateSrsItem(itemId, true);
+    } else if (result.srsConfidence !== undefined) {
+      const itemId = `${lesson.id}-${currentExercise.id}`;
+      // Map confidence (0-4) to SRS bucket adjustment
+      // 0: Reset to bucket 0, 1: Stay at 0, 2: Stay current, 3: Advance, 4: Advance more
+      const confidenceToCorrect = result.srsConfidence >= 2;
+      updateSrsItem(itemId, confidenceToCorrect);
+    }
 
     if (isLastExercise) {
       // Calculate lesson results

@@ -11,7 +11,7 @@ interface TypeAnswerProps {
 }
 
 export const TypeAnswer: React.FC<TypeAnswerProps> = ({
-  exercise: _exercise,
+  exercise,
   answer,
   onAnswerChange,
   isCorrect,
@@ -19,6 +19,12 @@ export const TypeAnswer: React.FC<TypeAnswerProps> = ({
 }) => {
   const [showKeyboard, setShowKeyboard] = useState(false);
   const inputValue = typeof answer === 'string' ? answer : '';
+
+  // Extract English translation from prompt (everything in parentheses)
+  const getEnglishTranslation = () => {
+    const match = exercise.prompt.match(/\((.*?)\)/);
+    return match ? match[1] : exercise.prompt;
+  };
 
   const cyrillicKeyboard = [
     ['я', 'в', 'е', 'р', 'т', 'ъ', 'у', 'и', 'о', 'п', 'ч'],
@@ -55,6 +61,16 @@ export const TypeAnswer: React.FC<TypeAnswerProps> = ({
 
   return (
     <div className="space-y-6">
+      {/* Prompt */}
+      <div className="text-center p-6 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-800">
+        <div className="text-sm text-primary-700 dark:text-primary-300 mb-2">
+          Type in Bulgarian:
+        </div>
+        <div className="text-2xl font-semibold text-primary-900 dark:text-primary-100">
+          {getEnglishTranslation()}
+        </div>
+      </div>
+
       {/* Text input */}
       <div>
         <input

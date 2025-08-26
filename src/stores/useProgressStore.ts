@@ -1,7 +1,14 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
+import { persist, createJSONStorage } from 'zustand/middleware';
 import localforage from 'localforage';
 import type { ProgressState, LessonResult, Theme } from '../types';
+
+// Configure localforage
+localforage.config({
+  name: 'Bulglo',
+  storeName: 'progress', 
+  description: 'Bulgarian learning app progress data'
+});
 
 interface ProgressStore extends ProgressState {
   // Actions
@@ -223,18 +230,33 @@ export const useProgressStore = create<ProgressStore>()(
     }),
     {
       name: 'bulglo-progress',
-      storage: {
-        getItem: async (name: string) => {
-          const value = await localforage.getItem(name);
-          return value ? JSON.parse(value as string) : null;
+      storage: createJSONStorage(() => ({
+        getItem: async (name: string): Promise<string | null> => {
+          try {
+            const value = await localforage.getItem<string>(name);
+            return value || null;
+          } catch (error) {
+            console.error('Failed to load progress:', error);
+            return null;
+          }
         },
-        setItem: async (name: string, value: any) => {
-          await localforage.setItem(name, JSON.stringify(value));
+        setItem: async (name: string, value: string): Promise<void> => {
+          try {
+            await localforage.setItem(name, value);
+          } catch (error) {
+            console.error('Failed to save progress:', error);
+            throw error;
+          }
         },
-        removeItem: async (name: string) => {
-          await localforage.removeItem(name);
+        removeItem: async (name: string): Promise<void> => {
+          try {
+            await localforage.removeItem(name);
+          } catch (error) {
+            console.error('Failed to remove progress:', error);
+            throw error;
+          }
         },
-      },
+      })),
     }
   )
 );

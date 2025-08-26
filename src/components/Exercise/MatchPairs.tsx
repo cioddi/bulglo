@@ -14,13 +14,27 @@ export const MatchPairs: React.FC<MatchPairsProps> = ({
   exercise,
   answer,
   onAnswerChange,
-  isCorrect: _isCorrect,
+  isCorrect,
   disabled,
 }) => {
   const { leftItems, rightItems } = exercise.data;
   const [selectedLeft, setSelectedLeft] = useState<string | null>(null);
   const [selectedRight, setSelectedRight] = useState<string | null>(null);
   const matches = Array.isArray(answer) ? answer : [];
+
+  const clearMatches = () => {
+    onAnswerChange([]);
+    setSelectedLeft(null);
+    setSelectedRight(null);
+  };
+
+  const isMatchCorrect = (match: string): boolean => {
+    const correctAnswers = exercise.correct;
+    if (Array.isArray(correctAnswers)) {
+      return correctAnswers.includes(match);
+    }
+    return false;
+  };
 
   const handleLeftClick = (item: string) => {
     if (disabled) return;
@@ -131,18 +145,54 @@ export const MatchPairs: React.FC<MatchPairsProps> = ({
       {/* Matches display */}
       {matches.length > 0 && (
         <div className="mt-6">
-          <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">Matches:</p>
+          <div className="flex items-center justify-between mb-3">
+            <p className="text-sm text-gray-600 dark:text-gray-400">Matches:</p>
+            {isCorrect === false && !disabled && (
+              <button
+                onClick={clearMatches}
+                className="text-sm text-red-600 dark:text-red-400 hover:text-red-700 dark:hover:text-red-300 underline"
+              >
+                Clear matches
+              </button>
+            )}
+          </div>
           <div className="space-y-2">
             {matches.map((match, index) => {
               const [left, right] = match.split(':');
+              const matchIsCorrect = isMatchCorrect(match);
+              const showFeedback = isCorrect !== null; // Show feedback after submission
+              
+              // Choose colors based on feedback
+              let bgColor, borderColor, iconColor;
+              if (showFeedback) {
+                if (matchIsCorrect) {
+                  bgColor = "bg-green-50 dark:bg-green-900/20";
+                  borderColor = "border-green-200 dark:border-green-800";
+                  iconColor = "text-green-600 dark:text-green-400";
+                } else {
+                  bgColor = "bg-red-50 dark:bg-red-900/20";
+                  borderColor = "border-red-200 dark:border-red-800";
+                  iconColor = "text-red-600 dark:text-red-400";
+                }
+              } else {
+                bgColor = "bg-gray-50 dark:bg-gray-800";
+                borderColor = "border-gray-200 dark:border-gray-700";
+                iconColor = "text-gray-500";
+              }
+              
               return (
                 <div
                   key={index}
-                  className="flex items-center justify-center p-2 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded"
+                  className={`flex items-center justify-center p-2 border rounded ${bgColor} ${borderColor}`}
                 >
                   <span className="cyrillic font-medium">{left}</span>
                   <span className="mx-3 text-gray-500">↔</span>
                   <span className="font-medium">{right}</span>
+                  {showFeedback && (
+                    <span className={`ml-3 text-lg ${iconColor}`}>
+                      {matchIsCorrect ? '✓' : '✗'}
+                    </span>
+                  )}
                 </div>
               );
             })}

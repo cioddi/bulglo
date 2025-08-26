@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import type { Exercise, ExerciseResult } from '../../types';
 import { Button } from '../UI/Button';
+import { SRSFeedback } from './SRSFeedback';
 import { MultipleChoice } from './MultipleChoice';
 import { SelectLetters } from './SelectLetters';
 import { MatchPairs } from './MatchPairs';
@@ -25,6 +26,9 @@ export const ExerciseContainer: React.FC<ExerciseContainerProps> = ({
   const [attempts, setAttempts] = useState(0);
   const [startTime] = useState(Date.now());
   const [showTip, setShowTip] = useState(false);
+  const [showSRSFeedback, setShowSRSFeedback] = useState(false);
+  const [caseError, setCaseError] = useState<boolean>(false);
+  const [wasSkipped, setWasSkipped] = useState<boolean>(false);
 
   useEffect(() => {
     // Reset state when exercise changes
@@ -32,6 +36,9 @@ export const ExerciseContainer: React.FC<ExerciseContainerProps> = ({
     setIsCorrect(null);
     setAttempts(0);
     setShowTip(false);
+    setShowSRSFeedback(false);
+    setCaseError(false);
+    setWasSkipped(false);
   }, [exercise.id]);
 
   const checkAnswer = (submittedAnswer?: string | string[]) => {
@@ -42,14 +49,48 @@ export const ExerciseContainer: React.FC<ExerciseContainerProps> = ({
     setAttempts(newAttempts);
 
     let correct = false;
-    if (Array.isArray(exercise.correct)) {
-      correct = Array.isArray(answerToCheck)
-        ? answerToCheck.length === exercise.correct.length &&
-          answerToCheck.every((ans, index) => ans === exercise.correct[index])
-        : exercise.correct.includes(String(answerToCheck));
+    let hasCaseError = false;
+    
+    // Special handling for flashcard exercises - any confidence answer is correct
+    if (exercise.kind === 'flashcard') {
+      correct = ['hard', 'good', 'easy'].includes(String(answerToCheck));
+    } else if (Array.isArray(exercise.correct)) {
+      if (Array.isArray(answerToCheck)) {
+        // Case-insensitive comparison for arrays (select_letters)
+        correct = answerToCheck.length === exercise.correct.length &&
+          answerToCheck.every((ans, index) => 
+            String(ans).toLowerCase() === String(exercise.correct[index]).toLowerCase()
+          );
+        
+        // Check if there's a case error but content is correct
+        if (!correct) {
+          const caseInsensitiveMatch = answerToCheck.length === exercise.correct.length &&
+            answerToCheck.every((ans, index) => 
+              String(ans).toLowerCase() === String(exercise.correct[index]).toLowerCase()
+            );
+          if (caseInsensitiveMatch) {
+            correct = true;
+            hasCaseError = true;
+          }
+        }
+      } else {
+        correct = exercise.correct.some(correctAns => 
+          String(correctAns).toLowerCase() === String(answerToCheck).toLowerCase()
+        );
+      }
     } else {
-      correct = String(answerToCheck).toLowerCase().trim() === String(exercise.correct).toLowerCase().trim();
+      const answerStr = String(answerToCheck).toLowerCase().trim();
+      const correctStr = String(exercise.correct).toLowerCase().trim();
+      correct = answerStr === correctStr;
+      
+      // Check for case error in single answers
+      if (!correct && answerStr === correctStr) {
+        correct = true;
+        hasCaseError = String(answerToCheck).trim() !== String(exercise.correct).trim();
+      }
     }
+
+    setCaseError(hasCaseError);
 
     setIsCorrect(correct);
     if (submittedAnswer) {
@@ -65,24 +106,17 @@ export const ExerciseContainer: React.FC<ExerciseContainerProps> = ({
           attempts: newAttempts,
         });
       }, 1500);
-    } else if (newAttempts >= 3) {
-      // Show correct answer after 3 attempts
+    } else if (newAttempts >= 3 && exercise.kind !== 'flashcard') {
+      // Show SRS feedback after 3 failed attempts (but not for flashcards)
       setTimeout(() => {
-        onComplete({
-          exerciseId: exercise.id,
-          correct: false,
-          timeSpent: Date.now() - startTime,
-          attempts: newAttempts,
-        });
+        setShowSRSFeedback(true);
       }, 2000);
     } else {
-      // Reset answer for retry, but only for auto-submit exercises
-      if (shouldAutoSubmit) {
-        setTimeout(() => {
-          setAnswer(null);
-          setIsCorrect(null);
-        }, 1500);
-      }
+      // Reset answer for retry
+      setTimeout(() => {
+        setAnswer(null);
+        setIsCorrect(null);
+      }, 1500);
     }
   };
 
@@ -91,7 +125,10 @@ export const ExerciseContainer: React.FC<ExerciseContainerProps> = ({
   const isFinished = (isCorrect === true) || (isCorrect === false && attempts >= 3);
   
   const handleAnswerChange = (newAnswer: string | string[] | null) => {
-    if (isFinished) return; // Don't allow changes after exercise is finished
+    // For non-auto-submit exercises, only block changes if we've reached max attempts
+    // For auto-submit exercises, block changes when finished
+    const shouldBlock = shouldAutoSubmit ? isFinished : (isCorrect === true || attempts >= 3);
+    if (shouldBlock) return;
     
     setAnswer(newAnswer);
     
@@ -101,13 +138,37 @@ export const ExerciseContainer: React.FC<ExerciseContainerProps> = ({
     }
   };
 
+  const handleSRSFeedback = (confidence: number) => {
+    // Complete the exercise with the confidence rating
+    onComplete({
+      exerciseId: exercise.id,
+      correct: false,
+      timeSpent: Date.now() - startTime,
+      attempts,
+      srsConfidence: confidence,
+    });
+  };
+
+  const handleSkipWithAnswer = () => {
+    setWasSkipped(true);
+    setIsCorrect(false);
+    setTimeout(() => {
+      if (onSkip) {
+        onSkip();
+      }
+    }, 2000); // Show answer for 2 seconds before skipping
+  };
+
   const renderExercise = () => {
+    // Use same logic as handleAnswerChange for disabled state
+    const isDisabled = shouldAutoSubmit ? isFinished : (isCorrect === true || attempts >= 3);
+    
     const commonProps = {
       exercise,
       answer,
       onAnswerChange: handleAnswerChange,
       isCorrect,
-      disabled: isFinished,
+      disabled: isDisabled,
     };
 
     switch (exercise.kind) {
@@ -130,6 +191,11 @@ export const ExerciseContainer: React.FC<ExerciseContainerProps> = ({
     }
   };
 
+  // Show SRS feedback if needed
+  if (showSRSFeedback) {
+    return <SRSFeedback exercise={exercise} onFeedback={handleSRSFeedback} />;
+  }
+
   return (
     <div className="max-w-2xl mx-auto p-6">
       {/* Progress indicator */}
@@ -140,7 +206,7 @@ export const ExerciseContainer: React.FC<ExerciseContainerProps> = ({
           </span>
           {onSkip && (
             <button
-              onClick={onSkip}
+              onClick={handleSkipWithAnswer}
               className="text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
             >
               Skip
@@ -181,12 +247,16 @@ export const ExerciseContainer: React.FC<ExerciseContainerProps> = ({
                 <span className="text-red-600 dark:text-red-400 text-2xl mr-3">✗</span>
                 <div>
                   <span className="text-red-800 dark:text-red-200 font-medium">
-                    {attempts >= 3 ? 'The correct answer was:' : 'Try again!'}
+                    {wasSkipped ? 'The correct answer was:' 
+                      : caseError ? 'Correct! (Check your capitalization)' 
+                      : attempts >= 3 ? 'The correct answer was:' 
+                      : 'Try again!'
+                    }
                   </span>
-                  {attempts >= 3 && (
-                    <div className="mt-1 text-red-700 dark:text-red-300">
+                  {(attempts >= 3 || caseError || wasSkipped) && (
+                    <div className="mt-1 text-red-700 dark:text-red-300 cyrillic">
                       {Array.isArray(exercise.correct) 
-                        ? exercise.correct.join(', ')
+                        ? exercise.correct.join('')
                         : exercise.correct
                       }
                     </div>
